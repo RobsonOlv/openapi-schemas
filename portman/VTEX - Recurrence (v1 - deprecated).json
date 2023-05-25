@@ -1,0 +1,1847 @@
+{
+  "_": {
+    "postman_id": "dab270f8-3bcd-476d-9a82-f8548e327a49"
+  },
+  "item": [
+    {
+      "id": "131fe9ac-a81a-4d4b-9bcc-62e833e004d4",
+      "name": "Miscellaneous",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "37a55918-f3b1-4c9b-82c3-e69080bec460",
+          "name": "Get Subscription by recurrenceId",
+          "request": {
+            "name": "Get Subscription by recurrenceId",
+            "description": {
+              "content": "Retrieves a given Subscription (formerly recurrence) by recurrenceId.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "subscriptions",
+                ":recurrenceId"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) ",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "consequat in cillum",
+                  "key": "recurrenceId"
+                },
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                },
+                {
+                  "description": {
+                    "content": "Environment to use. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{environment}}",
+                  "key": "environment"
+                }
+              ]
+            },
+            "method": "GET"
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "text"
+              },
+              "id": "1a88cd53-e27b-4c66-b9f2-aeee1c45a2b5",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "subscriptions",
+                    ":recurrenceId"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) ",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "consequat in cillum",
+                      "key": "recurrenceId"
+                    },
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "<API Key>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Type of the content being sent",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation Accept Header. Indicates the types of responses the client can understand",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "6ed194c2-cfc4-4fb8-83eb-c80ca44d40b6",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[GET]::/subscriptions/:recurrenceId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "67589b05-4f11-4e52-8a32-fb917979f832",
+          "name": "Update partial Subscription",
+          "request": {
+            "name": "Update partial Subscription",
+            "description": {
+              "content": "Updates partial information of a given subscription (formerly Recurrence).",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "subscriptions",
+                ":recurrenceId"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) ",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "consequat in cillum",
+                  "key": "recurrenceId"
+                },
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                },
+                {
+                  "description": {
+                    "content": "Environment to use. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{environment}}",
+                  "key": "environment"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "method": "PATCH",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"deliveryDay\": 18,\n  \"deliveryWeekday\": \"Monday\",\n  \"status\": \"inactive\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "text"
+              },
+              "id": "91e84c7f-c8e0-49b1-9e62-f7bdf1fbaeea",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "subscriptions",
+                    ":recurrenceId"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) ",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "consequat in cillum",
+                      "key": "recurrenceId"
+                    },
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "<API Key>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Type of the content being sent",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation Accept Header. Indicates the types of responses the client can understand",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "PATCH",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"deliveryDay\": 18,\n  \"deliveryWeekday\": \"Monday\",\n  \"status\": \"inactive\"\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "5af53cb0-fc7b-47d2-95ed-94695901f909",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[PATCH]::/subscriptions/:recurrenceId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "4105d248-f7dc-444c-bbbe-06ac1959bda2",
+          "name": "Get Subscriptions",
+          "request": {
+            "name": "Get Subscriptions",
+            "description": {
+              "content": "Retrieves a given Subscription (formerly recurrence). There are three options of filtering your Subscruptions v1. It's possible to get a list of all Subscriptions v1, by not adding any query params to your request, and simply executing a call to the url. It is also possible to list the Subscriptions by email, filtering by the email query param. And finnally, it is possible to list recurrences with failures on the last execution cycle, filtering by the cycleStatus query param.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "subscriptions"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "If you wish to list tasks by email, insert the desired user's email.",
+                    "type": "text/plain"
+                  },
+                  "key": "email",
+                  "value": "{{email}}"
+                },
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "If you wish to list tasks by Subscriptions with failures on the last execution cycle, insert the desired cycleStatus.",
+                    "type": "text/plain"
+                  },
+                  "key": "cycleStatus",
+                  "value": "{{cycleStatus}}"
+                }
+              ],
+              "variable": [
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                },
+                {
+                  "description": {
+                    "content": "Environment to use. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{environment}}",
+                  "key": "environment"
+                }
+              ]
+            },
+            "method": "GET"
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "text"
+              },
+              "id": "fb705cb9-9f00-4f08-b884-551f2cfe5a0a",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "subscriptions"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [
+                    {
+                      "key": "email",
+                      "value": "{{email}}"
+                    },
+                    {
+                      "key": "cycleStatus",
+                      "value": "{{cycleStatus}}"
+                    }
+                  ],
+                  "variable": [
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "<API Key>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Type of the content being sent",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation Accept Header. Indicates the types of responses the client can understand",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "214a4217-2128-4e01-85d7-0820f8e72751",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[GET]::/subscriptions - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "6c0754f0-1f50-40ab-b751-f6f93e274f83",
+          "name": "Update Subscription",
+          "request": {
+            "name": "Update Subscription",
+            "description": {
+              "content": "Updates details of a given Subscription (formerly recurrence).",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "subscriptions"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                },
+                {
+                  "description": {
+                    "content": "Environment to use. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{environment}}",
+                  "key": "environment"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "method": "PUT",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"email\": \"user@vtex.com.br\",\n  \"deliveryDay\": 26,\n  \"deliveryWeekday\": \"Friday\",\n  \"items\": [\n    {\n      \"sku\": \"18\",\n      \"seller\": \"1\",\n      \"quantity\": 2,\n      \"frequency\": {\n        \"periodicity\": \"weekly\",\n        \"interval\": 1\n      },\n      \"shippingAddressId\": \"-1461618656161\"\n    }\n  ],\n  \"paymentAccountId\": \"87FE21B06C0D42908D31A5B11E6FC043\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "text"
+              },
+              "id": "e892d96f-8ed3-4112-a2dc-01150299b3c6",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "subscriptions"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "<API Key>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Type of the content being sent",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation Accept Header. Indicates the types of responses the client can understand",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "PUT",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"email\": \"user@vtex.com.br\",\n  \"deliveryDay\": 26,\n  \"deliveryWeekday\": \"Friday\",\n  \"items\": [\n    {\n      \"sku\": \"18\",\n      \"seller\": \"1\",\n      \"quantity\": 2,\n      \"frequency\": {\n        \"periodicity\": \"weekly\",\n        \"interval\": 1\n      },\n      \"shippingAddressId\": \"-1461618656161\"\n    }\n  ],\n  \"paymentAccountId\": \"87FE21B06C0D42908D31A5B11E6FC043\"\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "d99722de-30bd-4b98-913f-3d77a632bbd1",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[PUT]::/subscriptions - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "b171bb01-29f9-4bc6-ae3e-a73f37a6a5ce",
+          "name": "Add Subscription item",
+          "request": {
+            "name": "Add Subscription item",
+            "description": {
+              "content": "Adds an item to a Subscription (formerly Recurrence).",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "subscriptions",
+                ":recurrenceId",
+                "items"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) ",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "consequat in cillum",
+                  "key": "recurrenceId"
+                },
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                },
+                {
+                  "description": {
+                    "content": "Environment to use. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{environment}}",
+                  "key": "environment"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "[\n  {\n    \"sku\": \"20\",\n    \"seller\": \"1\",\n    \"quantity\": 2,\n    \"frequency\": {\n      \"periodicity\": \"monthly\",\n      \"interval\": 1\n    },\n    \"shippingAddressId\": \"-1461618656161\"\n  }\n]",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "text"
+              },
+              "id": "7158ef66-0f91-45a0-ab20-10edacfbbc0a",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "subscriptions",
+                    ":recurrenceId",
+                    "items"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) ",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "consequat in cillum",
+                      "key": "recurrenceId"
+                    },
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "<API Key>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Type of the content being sent",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation Accept Header. Indicates the types of responses the client can understand",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "[\n  {\n    \"sku\": \"20\",\n    \"seller\": \"1\",\n    \"quantity\": 2,\n    \"frequency\": {\n      \"periodicity\": \"monthly\",\n      \"interval\": 1\n    },\n    \"shippingAddressId\": \"-1461618656161\"\n  }\n]",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "264d73b3-556b-40aa-944e-0234ee2a9027",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[POST]::/subscriptions/:recurrenceId/items - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "70a95d45-29a3-4d09-a97b-32700a0f2ac5",
+          "name": "Reindex Subscription",
+          "request": {
+            "name": "Reindex Subscription",
+            "description": {
+              "content": "Alters the frequency of a given Subscription (formerly Recurrence) by changing period and interval.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "subscriptions",
+                ":recurrenceId",
+                "reindex"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) ",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "consequat in cillum",
+                  "key": "recurrenceId"
+                },
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                },
+                {
+                  "description": {
+                    "content": "Environment to use. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{environment}}",
+                  "key": "environment"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "method": "PATCH",
+            "body": {
+              "mode": "raw",
+              "raw": "[\n  {\n    \"frequency\": {\n      \"periodicity\": \"yearly\",\n      \"interval\": 1\n    }\n  }\n]",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "text"
+              },
+              "id": "e4004235-2ccf-42f4-b7e6-119dafb80234",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "subscriptions",
+                    ":recurrenceId",
+                    "reindex"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) ",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "consequat in cillum",
+                      "key": "recurrenceId"
+                    },
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "<API Key>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Type of the content being sent",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation Accept Header. Indicates the types of responses the client can understand",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "PATCH",
+                "body": {
+                  "mode": "raw",
+                  "raw": "[\n  {\n    \"frequency\": {\n      \"periodicity\": \"yearly\",\n      \"interval\": 1\n    }\n  }\n]",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "253e0350-ab45-46d2-9087-bdc3f7892a27",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[PATCH]::/subscriptions/:recurrenceId/reindex - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "1110dcad-64b8-4f95-ac3e-249fef9aca52",
+          "name": "Get Subscription addresses",
+          "request": {
+            "name": "Get Subscription addresses",
+            "description": {
+              "content": "Retrieves the addresses attached to a given subscription (formerly recurrence) by recurrenceId.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "subscriptions",
+                ":recurrenceId",
+                "addresses"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) ",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "consequat in cillum",
+                  "key": "recurrenceId"
+                },
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                },
+                {
+                  "description": {
+                    "content": "Environment to use. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{environment}}",
+                  "key": "environment"
+                }
+              ]
+            },
+            "method": "GET"
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "text"
+              },
+              "id": "3d7aad75-e56c-41a9-a9bb-64cf0ecb63dd",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "subscriptions",
+                    ":recurrenceId",
+                    "addresses"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) ",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "consequat in cillum",
+                      "key": "recurrenceId"
+                    },
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "<API Key>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Type of the content being sent",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation Accept Header. Indicates the types of responses the client can understand",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "21d33a7d-ccf0-405d-894a-0aec5ecddd42",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[GET]::/subscriptions/:recurrenceId/addresses - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "a49d2352-9033-4eff-ae8a-499d3a7a53dc",
+          "name": "Get payment accounts",
+          "request": {
+            "name": "Get payment accounts",
+            "description": {
+              "content": "Lists payment accounts of a given Subscription (formerly Recurrence) by recurrenceId.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "subscriptions",
+                ":recurrenceid",
+                "accounts"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "description": {
+                    "content": "(Required) ",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "consequat in cillum",
+                  "key": "recurrenceid"
+                },
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                },
+                {
+                  "description": {
+                    "content": "Environment to use. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{environment}}",
+                  "key": "environment"
+                }
+              ]
+            },
+            "method": "GET"
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "text"
+              },
+              "id": "9103a4ec-1882-4b7a-9e73-542b272f8a10",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "subscriptions",
+                    ":recurrenceid",
+                    "accounts"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "description": {
+                        "content": "(Required) ",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "consequat in cillum",
+                      "key": "recurrenceid"
+                    },
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "<API Key>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Type of the content being sent",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation Accept Header. Indicates the types of responses the client can understand",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "9ac71d42-73da-44e5-b9d5-080dd61949cf",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[GET]::/subscriptions/:recurrenceid/accounts - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "1bb4c6ce-77d3-4232-9d98-f8d44487cb06",
+          "name": "Get Subscription settings",
+          "request": {
+            "name": "Get Subscription settings",
+            "description": {
+              "content": "Retrieves your store's Subscriptions' (formerly recurrence) settings.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "subscriptions",
+                "settings"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                },
+                {
+                  "description": {
+                    "content": "Environment to use. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{environment}}",
+                  "key": "environment"
+                }
+              ]
+            },
+            "method": "GET"
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "text"
+              },
+              "id": "8cfe5400-547d-431a-94de-18696d0a617e",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "subscriptions",
+                    "settings"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "<API Key>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Type of the content being sent",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation Accept Header. Indicates the types of responses the client can understand",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "9baf2cba-e95f-4007-a9c1-b04273e70090",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[GET]::/subscriptions/settings - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "274ed06d-61e5-4f2f-9f6b-ddb4eb82a0a8",
+          "name": "Update Subscription settings",
+          "request": {
+            "name": "Update Subscription settings",
+            "description": {
+              "content": "Updates the Subscriptions' (formerly Recurrence) settings of your store by salesChannel and defaultSLA.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "subscriptions",
+                "settings"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                },
+                {
+                  "description": {
+                    "content": "Environment to use. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{environment}}",
+                  "key": "environment"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "method": "PUT",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"salesChannel\": \"1\",\n  \"defaultSLA\": \"Normal\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "text"
+              },
+              "id": "24ee6f4a-763d-4f8d-887e-1f95bcf40229",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "subscriptions",
+                    "settings"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "<API Key>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Type of the content being sent",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation Accept Header. Indicates the types of responses the client can understand",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "PUT",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"salesChannel\": \"1\",\n  \"defaultSLA\": \"Normal\"\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "fca08526-3eda-472b-ae34-62738e783735",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[PUT]::/subscriptions/settings - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "619f10eb-2253-4b48-87b8-f471fa3b3b5a",
+          "name": "Get self Subscription",
+          "request": {
+            "name": "Get self Subscription",
+            "description": {
+              "content": "Lists details of your self Subscription (formerly Recurrence).",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "subscriptions",
+                "me"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "description": {
+                    "content": "Name of the VTEX account. Used as part of the URL",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{accountName}}",
+                  "key": "accountName"
+                },
+                {
+                  "description": {
+                    "content": "Environment to use. Used as part of the URL.",
+                    "type": "text/plain"
+                  },
+                  "type": "any",
+                  "value": "{{environment}}",
+                  "key": "environment"
+                }
+              ]
+            },
+            "method": "GET"
+          },
+          "response": [
+            {
+              "_": {
+                "postman_previewlanguage": "text"
+              },
+              "id": "073bf146-3f1e-4028-98fb-7351d6bc8dc2",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "subscriptions",
+                    "me"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "description": {
+                        "content": "Name of the VTEX account. Used as part of the URL",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{accountName}}",
+                      "key": "accountName"
+                    },
+                    {
+                      "description": {
+                        "content": "Environment to use. Used as part of the URL.",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "{{environment}}",
+                      "key": "environment"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-VTEX-API-AppKey",
+                    "value": "<API Key>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) Type of the content being sent",
+                      "type": "text/plain"
+                    },
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "disabled": false,
+                    "description": {
+                      "content": "(Required) HTTP Client Negotiation Accept Header. Indicates the types of responses the client can understand",
+                      "type": "text/plain"
+                    },
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": []
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "0dd1ae4f-e03b-4ba2-8b9c-2cbdfca3822d",
+                "type": "text/javascript",
+                "exec": [
+                  "// Validate status 2xx \npm.test(\"[GET]::/subscriptions/me - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
+                ]
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "auth": {
+    "type": "apikey",
+    "apikey": [
+      {
+        "type": "any",
+        "value": "X-VTEX-API-AppKey",
+        "key": "key"
+      },
+      {
+        "type": "any",
+        "value": "{{apiKey}}",
+        "key": "value"
+      },
+      {
+        "type": "any",
+        "value": "header",
+        "key": "in"
+      }
+    ]
+  },
+  "event": [],
+  "variable": [
+    {
+      "description": {
+        "content": "Name of the VTEX account. Used as part of the URL",
+        "type": "text/plain"
+      },
+      "type": "any",
+      "value": "{accountName}",
+      "key": "accountName"
+    },
+    {
+      "description": {
+        "content": "Environment to use. Used as part of the URL.",
+        "type": "text/plain"
+      },
+      "type": "any",
+      "value": "{environment}",
+      "key": "environment"
+    },
+    {
+      "type": "string",
+      "value": "https://{{accountName}}.{{environment}}.com.br/api",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "dab270f8-3bcd-476d-9a82-f8548e327a49",
+    "name": "Subscription (v1 - deprecated)",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "",
+      "type": "text/plain"
+    }
+  }
+}
