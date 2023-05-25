@@ -34,7 +34,7 @@ jobs:
         run: |
           git add .
           git commit -m "Update generated files by portman"
-          git pull --rebase origin "${{ github.ref }}"
+          git pull --rebase origin "${{ github.head_ref }}"
 
       - name: Push changes
         uses: ad-m/github-push-action@v0.6.0
