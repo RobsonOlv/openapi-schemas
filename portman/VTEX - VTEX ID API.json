@@ -1,10 +1,10 @@
 {
   "_": {
-    "postman_id": "6b2583a9-224a-441e-a45a-7418bc03f7a6"
+    "postman_id": "d071f696-805f-4e22-bc21-626506fc412f"
   },
   "item": [
     {
-      "id": "800646eb-be94-4b6e-be01-c4d485c2e639",
+      "id": "389154e5-81c8-42e1-8749-5ff3055d94ed",
       "name": "Authentication",
       "description": {
         "content": "",
@@ -12,7 +12,7 @@
       },
       "item": [
         {
-          "id": "ec82796f-77b5-45a2-b1cc-8030bf427b87",
+          "id": "9ba628c5-a3d7-4831-b5df-43ee51c324a9",
           "name": "Generate authentication token",
           "request": {
             "name": "Generate authentication token",
@@ -69,7 +69,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "7255787d-7186-4c03-9118-18fc14ec0a4e",
+              "id": "743218d3-7f3d-40e5-8888-bbca65775213",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -141,7 +141,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "173af7d3-8016-4482-83b3-edebb45c33d5",
+                "id": "35a2e742-0899-4430-a9f6-89c0079f93be",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/vtexid/apptoken/login - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -157,7 +157,7 @@
           }
         },
         {
-          "id": "0fe570c3-cd08-4537-b56c-4c53c48d4acf",
+          "id": "4009f5ca-29b5-4e44-82f1-ceb743b6f6fd",
           "name": "Exchange OAuth access token for VTEX credential",
           "request": {
             "name": "Exchange OAuth access token for VTEX credential",
@@ -227,7 +227,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "7a4b61ca-3d26-4628-8c0e-a07d7a18040d",
+              "id": "cd4501dd-4a78-4c73-97f6-c150f5a131b1",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -317,7 +317,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "5b8c8582-7380-4ac5-b64e-e840381e0408",
+                "id": "4a888e94-5b6c-478a-b57a-fe055edad0cc",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/vtexid/audience/webstore/provider/oauth/exchange - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -355,7 +355,7 @@
     }
   ],
   "info": {
-    "_postman_id": "6b2583a9-224a-441e-a45a-7418bc03f7a6",
+    "_postman_id": "d071f696-805f-4e22-bc21-626506fc412f",
     "name": "VTEX ID",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
     "description": {

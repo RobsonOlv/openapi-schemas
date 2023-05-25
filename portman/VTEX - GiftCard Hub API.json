@@ -1,10 +1,10 @@
 {
   "_": {
-    "postman_id": "c626d902-0d29-48da-8c3f-1109e50c7819"
+    "postman_id": "477db4f5-4479-4f98-8dbf-6f54cc17756e"
   },
   "item": [
     {
-      "id": "81e2473f-0028-4b07-8acf-be812f6b43d9",
+      "id": "5be61e70-3c2b-4e45-b7f1-02e94fbe3ebe",
       "name": "Provider",
       "description": {
         "content": "",
@@ -12,7 +12,7 @@
       },
       "item": [
         {
-          "id": "2a8bc0f7-00be-41f0-9cd6-f83f7372a8fd",
+          "id": "0f9a2305-fd78-40ba-9a00-e4de2c42482b",
           "name": "List All GiftCard Providers",
           "request": {
             "name": "List All GiftCard Providers",
@@ -89,7 +89,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "f10f4ff5-83ff-4ccb-ab98-75869ad25d45",
+              "id": "c1afb355-79c8-4b64-b743-846f9c153ec5",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -198,7 +198,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "17a86a6d-7017-47ef-943a-51ddb0a664e3",
+                "id": "7132d132-52f8-45f4-8913-7d6d514a5e11",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/giftcardproviders - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -212,7 +212,7 @@
           }
         },
         {
-          "id": "ff0131c8-39fd-42aa-9172-30400a64025a",
+          "id": "17ed8d72-c91f-46f2-b2d9-49486feebb44",
           "name": "Get GiftCard Provider by ID",
           "request": {
             "name": "Get GiftCard Provider by ID",
@@ -291,7 +291,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "d084675f-4b58-4ba9-ad99-1ca6d83a4b9b",
+              "id": "b4530183-dfc1-402d-81ca-d642a55c80c0",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -401,7 +401,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "d2858c56-0921-445e-9975-60ea5d9de2f1",
+              "id": "cd5af6c3-2cda-4d21-a499-e39a90cc6f1a",
               "name": "O provider não existe.\n",
               "originalRequest": {
                 "url": {
@@ -509,7 +509,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "75d85ee4-52cb-4f96-a45c-1f8620c18665",
+                "id": "eafd0542-6905-4c98-93df-572178170639",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/giftcardproviders/:giftCardProviderId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -523,7 +523,7 @@
           }
         },
         {
-          "id": "26170410-2c56-4185-9c5c-8f0cdcd5d573",
+          "id": "1961748b-07b5-4e66-9da9-9313a0ca0bd9",
           "name": "Create/Update GiftCard Provider by ID",
           "request": {
             "name": "Create/Update GiftCard Provider by ID",
@@ -615,7 +615,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "5eba0369-31aa-4863-8fa0-730b43db2ea1",
+              "id": "7836bf97-5c1b-491f-82aa-61eb99bc07df",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -734,7 +734,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "bd120dc6-dba2-4bcc-af59-4e0c76041b06",
+                "id": "9fd8a6e3-98c1-4ae4-92e5-1d4520bf127e",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/giftcardproviders/:giftCardProviderID - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -748,7 +748,7 @@
           }
         },
         {
-          "id": "58d8adc5-a3fb-47ed-9165-78912a9f74dc",
+          "id": "9c04e7f1-a416-44af-bff5-19378fdd2bb3",
           "name": "Delete GiftCard Provider by ID",
           "request": {
             "name": "Delete GiftCard Provider by ID",
@@ -827,7 +827,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "1afd225e-714c-43b6-9ecc-2dd8884a6e83",
+              "id": "cc2a2a86-fd8c-4148-a86b-fd072a09daac",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -937,7 +937,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "04abfb5e-86ae-4832-97ed-3c6ddbbbdb79",
+              "id": "fbfe788c-30e9-4cab-99b1-ecc51ec41b6e",
               "name": "O provider não existe.\n",
               "originalRequest": {
                 "url": {
@@ -1045,7 +1045,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "5cc43ae6-75f2-44c3-96cb-273269a583b2",
+                "id": "dd0c8aa5-4c8f-4196-9233-4c566b66e81f",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[DELETE]::/giftcardproviders/:giftCardProviderID - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -1062,7 +1062,7 @@
       "event": []
     },
     {
-      "id": "2acbf608-162b-4883-8b9f-93843371b027",
+      "id": "d308f383-f5f3-432d-92ca-41a4aa835ee5",
       "name": "Transaction",
       "description": {
         "content": "",
@@ -1070,7 +1070,7 @@
       },
       "item": [
         {
-          "id": "b7501720-bfe3-4a95-b8f2-956feb74ca3f",
+          "id": "348729cb-25ae-4447-a713-8d461dc8f405",
           "name": "Create GiftCard in GiftCard Provider",
           "request": {
             "name": "Create GiftCard in GiftCard Provider",
@@ -1163,7 +1163,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "b6d9fee2-53ae-4392-b9a7-13a00f5b98b9",
+              "id": "676e4c09-af54-47dc-aa06-7a23b1f75b4f",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -1283,7 +1283,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "92cec563-f81c-4a57-b504-59f547244f0c",
+                "id": "f0c06e16-d847-47b9-9f59-4d263cfc69a7",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/giftcardproviders/:giftCardProviderID/giftcards - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -1297,7 +1297,7 @@
           }
         },
         {
-          "id": "1909eb90-3168-4b7b-b4bc-3fa23fd40b36",
+          "id": "b409b99d-9796-4ba0-aa12-d03de85f6529",
           "name": "Get GiftCard from GiftCard Provider",
           "request": {
             "name": "Get GiftCard from GiftCard Provider",
@@ -1400,7 +1400,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "d7bf9685-eafe-4727-b8b2-e9835e8dfb2c",
+              "id": "5f39447a-3a8c-4c35-8c7c-7a4426b82955",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -1530,7 +1530,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "e0ed7c78-4f82-4081-b07d-aa33b6b90bd5",
+                "id": "dc986ebd-562a-45f7-9445-c1a205102658",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/giftcardproviders/:giftCardProviderID/giftcards/_search - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -1544,7 +1544,7 @@
           }
         },
         {
-          "id": "e3ae1094-036c-4d32-8ab7-5fc17ee07d24",
+          "id": "4b11b148-0351-41d9-866f-0c1b32631a0a",
           "name": "Get GiftCard from GiftCard Provider by ID",
           "request": {
             "name": "Get GiftCard from GiftCard Provider by ID",
@@ -1635,7 +1635,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "49d32388-5a5f-41e5-9cb1-62e2353fa9a4",
+              "id": "a6d35ab5-9c93-488c-a2a8-689d4e4c1559",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -1758,7 +1758,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "ad76a85b-b593-4095-8c17-43f17aec6b28",
+                "id": "a742160f-7ed1-47d6-b4fc-9a27d901e921",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/giftcardproviders/:giftCardProviderID/giftcards/:giftCardID - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -1772,7 +1772,7 @@
           }
         },
         {
-          "id": "531e623c-ec10-46b7-a234-78ecdf838bbe",
+          "id": "a18a5d93-0235-499d-b17d-215b264a6eb5",
           "name": "List All GiftCard Transactions",
           "request": {
             "name": "List All GiftCard Transactions",
@@ -1864,7 +1864,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "baa2a66b-9c75-4d9a-aad4-cdb87a4e367b",
+              "id": "5f1c6d28-0c0a-4e64-9b9f-92a1dd9973f0",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -1988,7 +1988,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "5b030674-fc31-42fb-b78c-4b5ec50184e8",
+                "id": "28e18125-d505-49dc-a80c-e6f82f18e371",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/giftcardproviders/:giftCardProviderID/giftcards/:giftCardID/transactions - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -2002,7 +2002,7 @@
           }
         },
         {
-          "id": "f0b5ebb9-620b-4329-a74c-be9e8621f365",
+          "id": "a0cf9f48-11c5-4816-95fd-44b6237a7a51",
           "name": "Create GiftCard Transaction",
           "request": {
             "name": "Create GiftCard Transaction",
@@ -2107,7 +2107,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "b1e64ffe-32f2-4764-85b8-1a4055d4b8b2",
+              "id": "10434e24-2449-48df-ae1e-762826e2cb23",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -2239,7 +2239,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "b734ec4f-a584-40eb-8b17-7786aa1e482e",
+                "id": "220ec50d-006f-444e-9a9f-e23b534d8a5f",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/giftcardproviders/:giftCardProviderID/giftcards/:giftCardID/transactions - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -2253,7 +2253,7 @@
           }
         },
         {
-          "id": "5ca78b12-8e0c-4cb7-9111-200583a643d3",
+          "id": "955232bd-e30a-4ddf-bea1-c01b5866c3c6",
           "name": "Get GiftCard Transaction by ID",
           "request": {
             "name": "Get GiftCard Transaction by ID",
@@ -2356,7 +2356,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "8c13d285-3841-4845-833d-f50439f09924",
+              "id": "51053133-6170-4b45-921f-4b9c2127595a",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -2491,7 +2491,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "710c9b06-75e7-4b64-85fd-aa1e4cbcf0f6",
+                "id": "76a107ba-6882-41e9-b58f-fbeee64e635f",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/giftcardproviders/:giftCardProviderID/giftcards/:giftCardID/transactions/:transactionID - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -2505,7 +2505,7 @@
           }
         },
         {
-          "id": "2b616cf1-3612-4282-8f9d-3cea3356af27",
+          "id": "8766fc82-e970-4161-a767-86b492ab4d4a",
           "name": "Get GiftCard Authorization Transaction",
           "request": {
             "name": "Get GiftCard Authorization Transaction",
@@ -2609,7 +2609,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "fe02d86d-9609-4fe4-9312-91e2ed9d70be",
+              "id": "0fe9d1ae-e322-4ece-90d2-319ad3e7fa94",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -2745,7 +2745,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "3c377524-3521-40d6-b106-f928d5f13841",
+                "id": "d4705811-a0b4-4894-b61c-46ad86b89b2b",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/giftcardproviders/:giftCardProviderID/giftcards/:giftCardID/transactions/:transactionID/authorization - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -2759,7 +2759,7 @@
           }
         },
         {
-          "id": "5e034563-4a54-4e73-8441-5ace326b92b5",
+          "id": "99891a28-9675-498a-a06d-2ccafd297df9",
           "name": "List All GiftCard Settlement Transactions",
           "request": {
             "name": "List All GiftCard Settlement Transactions",
@@ -2863,7 +2863,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "27412368-6553-4ff7-8fe1-451bc0e079f6",
+              "id": "cbd649bc-3c0a-4fd2-9a01-b613501753eb",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -2999,7 +2999,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "5740a3c8-83cf-4ea8-8bfe-eb4338dca591",
+                "id": "247074cc-3bac-447e-9763-d5ee84dc146b",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/giftcardproviders/:giftCardProviderID/giftcards/:giftCardID/transactions/:tId/settlements - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -3013,7 +3013,7 @@
           }
         },
         {
-          "id": "cedaeafe-2d37-4980-95ea-a64a0a207052",
+          "id": "374a1c38-3505-47ba-86cd-803e6734c5fb",
           "name": "Create GiftCard Settlement Transaction",
           "request": {
             "name": "Create GiftCard Settlement Transaction",
@@ -3112,7 +3112,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "5c35820a-8b17-4805-9547-61b65a4b8f9d",
+              "id": "f5338ebd-ed53-4245-b478-6970b6e93159",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -3238,7 +3238,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "b0dfe4b1-494b-48b5-80e3-10ffb78f2e69",
+                "id": "0b1792f9-76d9-4182-a835-38966250f280",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/giftcardproviders/:giftCardProviderID/giftcards/:giftCardID/transactions/:tId/settlements - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -3252,7 +3252,7 @@
           }
         },
         {
-          "id": "81258b22-cb0e-41c1-ab30-0eb5246ab144",
+          "id": "ee1bf2f1-4558-4cd2-b0e4-0aa2f62d1e2e",
           "name": "List All GiftCard Cancellation Transactions",
           "request": {
             "name": "List All GiftCard Cancellation Transactions",
@@ -3356,7 +3356,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "5aa21bb1-7d39-4820-a932-f0dd332add25",
+              "id": "edcbb0a6-2244-4fa0-8175-7c4587016ac5",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -3492,7 +3492,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "5a93e231-431c-4f78-aacf-2ba672396889",
+                "id": "544ed493-8bc5-4f75-b21f-6f19551911ba",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/giftcardproviders/:giftCardProviderID/giftcards/:giftCardID/transactions/:tId/cancellations - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -3506,7 +3506,7 @@
           }
         },
         {
-          "id": "96bec634-80c6-4913-b730-a79931fdfc87",
+          "id": "3906bdcd-a56e-42e6-9e4c-81b1f305e37c",
           "name": "Create GiftCard Cancellation Transaction",
           "request": {
             "name": "Create GiftCard Cancellation Transaction",
@@ -3623,7 +3623,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "40a3bca2-81da-4d7e-809d-e25429076336",
+              "id": "e02b423f-5055-4a81-9b9e-97cad26f2c1b",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -3767,7 +3767,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "2417d3b8-ffd7-4a9b-8f41-8abfc12d0bcc",
+                "id": "b9b4fa54-aa47-4bb6-962c-67a26ebbf015",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/giftcardproviders/:giftCardProviderID/giftcards/:giftCardID/transactions/:tId/cancellations - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -3831,7 +3831,7 @@
     }
   ],
   "info": {
-    "_postman_id": "c626d902-0d29-48da-8c3f-1109e50c7819",
+    "_postman_id": "477db4f5-4479-4f98-8dbf-6f54cc17756e",
     "name": "GiftCard Hub API",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
     "description": {

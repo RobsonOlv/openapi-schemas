@@ -1,10 +1,10 @@
 {
   "_": {
-    "postman_id": "965dbbb3-f3be-4dcc-b9cf-042b967e1fc2"
+    "postman_id": "c5a52799-3b50-436d-a156-e8cb747bda23"
   },
   "item": [
     {
-      "id": "927b5153-4565-4122-900a-188cadf19499",
+      "id": "5fa054bd-07f4-4915-9ba2-f1eb26ff2c22",
       "name": "Documents",
       "description": {
         "content": "The APIs within this group are used to save documents and query them by id.\r\n\r\nIf the document has the id attribute or has fields that have been set to indexes with unique values, VTEX Master Data will attempt to identify the document. If the document is found a change will be made. If it is not found, an inclusion will be made. ** This scenario does not apply to the API with the POST verb**.\r\n\r\nOtherwise, a new document will always be created.\r\n\r\nYou can use the query string `_where` to apply an update only if the document is compliant with the clause.\r\n\r\nIn addition with this feature you can use the schema parameter `_schema` as a query string to apply the update only if the document is compliant with the schema. If the document is not compliant, the body of the response will have an array with each error, where the field ```Message``` indicates the type of the error.\r\n\r\n### Response status code\r\n\r\n1. Status Code 201: Document created successfully\r\n2. Status Code 200: Document changed successfully\r\n3. Status Code 304: There were no changes to the document\r\n4. Status Code 400: Invalid information in JSON\r\n5. Status Code 403: Unauthorized access\r\n",
@@ -12,7 +12,7 @@
       },
       "item": [
         {
-          "id": "3afd94c9-4e1c-4033-82b6-ef5c660b5e34",
+          "id": "9d5c0dff-b5db-4dfc-be43-d6c54062b92c",
           "name": "Create new document",
           "request": {
             "name": "Create new document",
@@ -85,7 +85,7 @@
             "method": "POST",
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"reprehenderit_7\": \"dolore laboris eu occaecat voluptate\",\n  \"voluptate_4b6\": \"in tempor\",\n  \"nulla_f_a\": \"ut ipsum in\"\n}",
+              "raw": "{\n  \"ullamcob\": \"in et anim ut est\",\n  \"magna_2\": \"aute ut dolore fugiat\",\n  \"reprehenderitca\": \"reprehenderit\"\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -98,7 +98,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "9b1a4a45-2b73-4a22-8ecc-e6babd651cb3",
+              "id": "878181b4-c87c-42fd-a54e-735c6b0126db",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -183,7 +183,7 @@
                 "method": "POST",
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"reprehenderit_7\": \"dolore laboris eu occaecat voluptate\",\n  \"voluptate_4b6\": \"in tempor\",\n  \"nulla_f_a\": \"ut ipsum in\"\n}",
+                  "raw": "{\n  \"ullamcob\": \"in et anim ut est\",\n  \"magna_2\": \"aute ut dolore fugiat\",\n  \"reprehenderitca\": \"reprehenderit\"\n}",
                   "options": {
                     "raw": {
                       "language": "json"
@@ -207,7 +207,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "8aa82b35-6314-4a76-bbaa-1429015f86b6",
+                "id": "9c32963d-ad25-46cf-8348-64ce1d353793",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/dataentities/:dataEntityName/documents - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -223,7 +223,7 @@
           }
         },
         {
-          "id": "65236fbd-7222-4874-af7c-e4574f130c99",
+          "id": "ac2b7f7c-b313-4710-bacd-f2768bff76c5",
           "name": "Create partial document",
           "request": {
             "name": "Create partial document",
@@ -296,7 +296,7 @@
             "method": "PATCH",
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"reprehenderit_7\": \"dolore laboris eu occaecat voluptate\",\n  \"voluptate_4b6\": \"in tempor\",\n  \"nulla_f_a\": \"ut ipsum in\"\n}",
+              "raw": "{\n  \"ullamcob\": \"in et anim ut est\",\n  \"magna_2\": \"aute ut dolore fugiat\",\n  \"reprehenderitca\": \"reprehenderit\"\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -309,7 +309,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "e61e513f-a843-4c20-8f2d-6a16c828f89f",
+              "id": "991bbcb0-4521-4f87-b237-915ef1356146",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -394,7 +394,7 @@
                 "method": "PATCH",
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"reprehenderit_7\": \"dolore laboris eu occaecat voluptate\",\n  \"voluptate_4b6\": \"in tempor\",\n  \"nulla_f_a\": \"ut ipsum in\"\n}",
+                  "raw": "{\n  \"ullamcob\": \"in et anim ut est\",\n  \"magna_2\": \"aute ut dolore fugiat\",\n  \"reprehenderitca\": \"reprehenderit\"\n}",
                   "options": {
                     "raw": {
                       "language": "json"
@@ -418,7 +418,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "47009283-1952-45d8-b8df-1bf58f5cbdf0",
+                "id": "8e336683-fdc1-4a67-89e1-23e12891733a",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PATCH]::/api/dataentities/:dataEntityName/documents - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -434,7 +434,7 @@
           }
         },
         {
-          "id": "9cb26e80-4427-4326-b916-5fb06cbf76ee",
+          "id": "942f3f81-2c91-4f5d-8ca1-aa0ea438d852",
           "name": "Get document",
           "request": {
             "name": "Get document",
@@ -508,7 +508,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "df15997a-6e3c-4302-9559-800168e8eb0d",
+              "id": "ad50de17-3e76-4256-83fa-cc67ff28f673",
               "name": "Sucessful response",
               "originalRequest": {
                 "url": {
@@ -615,7 +615,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "034ceaaf-fc0d-40bf-9c28-e93369f7a97d",
+                "id": "e29111fa-0f24-430a-b0d5-a068f43fd8b0",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/dataentities/:dataEntityName/documents/:id - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -631,7 +631,7 @@
           }
         },
         {
-          "id": "fef7a29d-3635-4f16-9353-17c0a8764f17",
+          "id": "8629037c-0fc5-4342-9c98-093e207c90e2",
           "name": "Update entire document",
           "request": {
             "name": "Update entire document",
@@ -724,7 +724,7 @@
             "method": "PUT",
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"reprehenderit_7\": \"dolore laboris eu occaecat voluptate\",\n  \"voluptate_4b6\": \"in tempor\",\n  \"nulla_f_a\": \"ut ipsum in\"\n}",
+              "raw": "{\n  \"ullamcob\": \"in et anim ut est\",\n  \"magna_2\": \"aute ut dolore fugiat\",\n  \"reprehenderitca\": \"reprehenderit\"\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -737,7 +737,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "8408739b-2ddd-4f7d-b4e7-cd3492195187",
+              "id": "18ccb7d5-e4e3-49ed-9939-df4ffea6dbbf",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -828,7 +828,7 @@
                 "method": "PUT",
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"reprehenderit_7\": \"dolore laboris eu occaecat voluptate\",\n  \"voluptate_4b6\": \"in tempor\",\n  \"nulla_f_a\": \"ut ipsum in\"\n}",
+                  "raw": "{\n  \"ullamcob\": \"in et anim ut est\",\n  \"magna_2\": \"aute ut dolore fugiat\",\n  \"reprehenderitca\": \"reprehenderit\"\n}",
                   "options": {
                     "raw": {
                       "language": "json"
@@ -852,7 +852,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "8c8acb4f-c37d-44d8-8850-f1434e35b966",
+                "id": "b88a11b9-854d-425e-93a5-5c3a3d9e0aab",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/api/dataentities/:dataEntityName/documents/:id - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -868,7 +868,7 @@
           }
         },
         {
-          "id": "90bd0d9d-6bee-4397-9d50-e13850dc5145",
+          "id": "79f68d0f-fbc6-42e6-a58b-f28863b5b82b",
           "name": "Update partial document",
           "request": {
             "name": "Update partial document",
@@ -961,7 +961,7 @@
             "method": "PATCH",
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"reprehenderit_7\": \"dolore laboris eu occaecat voluptate\",\n  \"voluptate_4b6\": \"in tempor\",\n  \"nulla_f_a\": \"ut ipsum in\"\n}",
+              "raw": "{\n  \"ullamcob\": \"in et anim ut est\",\n  \"magna_2\": \"aute ut dolore fugiat\",\n  \"reprehenderitca\": \"reprehenderit\"\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -974,7 +974,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "0a898eba-66db-4fa0-bd86-61a3f32e83e8",
+              "id": "d65e9cd0-5e5a-4d75-8afa-3408d64a904e",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1065,7 +1065,7 @@
                 "method": "PATCH",
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"reprehenderit_7\": \"dolore laboris eu occaecat voluptate\",\n  \"voluptate_4b6\": \"in tempor\",\n  \"nulla_f_a\": \"ut ipsum in\"\n}",
+                  "raw": "{\n  \"ullamcob\": \"in et anim ut est\",\n  \"magna_2\": \"aute ut dolore fugiat\",\n  \"reprehenderitca\": \"reprehenderit\"\n}",
                   "options": {
                     "raw": {
                       "language": "json"
@@ -1089,7 +1089,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "89a618c4-18eb-4d9c-bf72-4d6720f5fd16",
+                "id": "726f3946-1be7-49c6-850d-5b60b7ad6777",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PATCH]::/api/dataentities/:dataEntityName/documents/:id - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -1105,7 +1105,7 @@
           }
         },
         {
-          "id": "e2a656ca-45d3-466d-a596-30331c0f7956",
+          "id": "49d27b6b-e8e7-41c9-be42-788a47c3b053",
           "name": "Delete document",
           "request": {
             "name": "Delete document",
@@ -1173,7 +1173,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "c753c811-1586-469d-b6b9-84a0a226a207",
+              "id": "5d27a3a0-d7dc-4a7a-bdfd-a8aa34f92744",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1276,7 +1276,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "3f9f3176-1ada-49f8-931d-27fde49604e4",
+                "id": "f5f627fc-3306-41b3-8a57-7fb2a107ad26",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[DELETE]::/api/dataentities/:dataEntityName/documents/:id - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -1292,7 +1292,7 @@
       "event": []
     },
     {
-      "id": "e9fab153-f43f-461c-93a4-5b96a99ca5e9",
+      "id": "099bda65-f1cf-4383-8ec6-9e5f2997f31a",
       "name": "Search",
       "description": {
         "content": "The ```search``` API is intended to query a collection of documents.  ",
@@ -1300,7 +1300,7 @@
       },
       "item": [
         {
-          "id": "fd0da6e2-e787-475e-a530-f5dfda0b6919",
+          "id": "152d3316-80cb-45f0-97c2-6567c45198d7",
           "name": "Search documents",
           "request": {
             "name": "Search documents",
@@ -1418,7 +1418,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "08959ca8-c27e-437c-b926-ee3267011862",
+              "id": "3f109571-30bd-4d76-ac58-023288cb814a",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1539,7 +1539,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "48e365e7-48d0-42a0-9367-9d2fde506999",
+              "id": "e552655d-5bf8-40ea-bedb-b0c4c5a2b8ea",
               "name": "Service Unavailable",
               "originalRequest": {
                 "url": {
@@ -1665,7 +1665,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "91c2a94b-f6b0-4bed-aeaa-f90b6ce17c62",
+                "id": "00ed54ca-3e29-46d8-be43-026235d0586f",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/dataentities/:dataEntityName/search - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -1681,7 +1681,7 @@
       "event": []
     },
     {
-      "id": "2b93a956-1e7a-4a97-8f3f-19be26efd65b",
+      "id": "763ae96b-9a83-4029-8c02-f9fdd81d5b5c",
       "name": "Scroll",
       "description": {
         "content": "The new `` scroll `` API has been developed to meet external integration scenarios. If you need to query the entire VTEX Master Data database, or your collection is over 10.000 documents, use this feature.",
@@ -1689,7 +1689,7 @@
       },
       "item": [
         {
-          "id": "2abc6e5b-d165-41cd-82e5-d8d6cd6653c5",
+          "id": "c16418a3-8425-4a66-ad7e-e130f3e15188",
           "name": "Scroll documents",
           "request": {
             "name": "Scroll documents",
@@ -1816,7 +1816,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "72b8230f-5f1b-4d6f-ad94-3d4c3f444859",
+              "id": "2756256b-f413-47c3-b729-10b347ea442f",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1941,7 +1941,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "773c9b5b-8521-4b6f-a76d-c7124df46fba",
+              "id": "48a7aac7-a5d7-4c7f-a492-bcbcdc16e71b",
               "name": "Too Many Requests",
               "originalRequest": {
                 "url": {
@@ -2071,7 +2071,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "f1add325-047a-4ea3-907d-b6b68da93ed7",
+                "id": "4bf22685-cb62-4c57-8496-e0bde45d683d",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/dataentities/:dataEntityName/scroll - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -2087,7 +2087,7 @@
       "event": []
     },
     {
-      "id": "340e30fc-90ea-4b04-b61a-1e3a5b0efe69",
+      "id": "835d87f5-c312-4d96-baf8-948810d35a5a",
       "name": "Schemas",
       "description": {
         "content": "",
@@ -2095,7 +2095,7 @@
       },
       "item": [
         {
-          "id": "cf609e24-a590-4bd1-830e-3ba444220627",
+          "id": "1530f867-1ed1-4767-b2bd-0a091a278314",
           "name": "Get schemas",
           "request": {
             "name": "Get schemas",
@@ -2152,7 +2152,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "2debc7d4-058b-4b7f-9f2b-d08e7c5117ad",
+              "id": "ae43f2da-5d02-4870-b517-4caa57db3424",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -2235,7 +2235,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "dc6a14ac-0dd5-4d44-8a5c-15bfe854424d",
+                "id": "ab6c2d76-26a9-4809-97e1-b388a6a0cda0",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/dataentities/:dataEntityName/schemas - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -2248,7 +2248,7 @@
           }
         },
         {
-          "id": "9b2b2000-cbac-46d8-a3c8-20fc8df8c235",
+          "id": "c6884c54-2516-49c1-97e1-ff6a24f06849",
           "name": "Get schema by name",
           "request": {
             "name": "Get schema by name",
@@ -2316,7 +2316,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "f0762b42-8127-40ea-9ac2-6bf499c3854f",
+              "id": "9d528910-5dac-47ce-af4d-624daaf3c359",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -2410,7 +2410,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "202dfb08-fd47-4acc-a20b-7e56cc820962",
+                "id": "d35fc102-3965-4032-950f-2e682a48f7fb",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/dataentities/:dataEntityName/schemas/:schemaName - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -2423,7 +2423,7 @@
           }
         },
         {
-          "id": "3aa369a3-73dd-4df0-9c46-116fc49457e3",
+          "id": "28e0e88b-7390-4011-bcc2-085215fe8f09",
           "name": "Save schema by name",
           "request": {
             "name": "Save schema by name",
@@ -2506,7 +2506,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "5dec7a8d-a242-42f4-b916-ee81369cc539",
+              "id": "ac70df98-e9a6-40c5-bd7f-613f2a63c2bf",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -2599,7 +2599,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "f7a1da22-7972-4972-825d-70f0d574c8a5",
+                "id": "20565cbf-26a1-4e84-b985-750cea39ace8",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/api/dataentities/:dataEntityName/schemas/:schemaName - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -2612,7 +2612,7 @@
           }
         },
         {
-          "id": "02cbc4e6-caad-4b98-bea9-cf56cdfb61ba",
+          "id": "0439862d-0a51-4412-800f-70e3ef458525",
           "name": "Delete schema by name",
           "request": {
             "name": "Delete schema by name",
@@ -2680,7 +2680,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "102fcf96-0ebd-4c63-9cf4-fd5a85a8a565",
+              "id": "7689afa1-4b72-4d88-a12e-47b8da7e19ce",
               "name": "No Content",
               "originalRequest": {
                 "url": {
@@ -2774,7 +2774,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "08d330f5-7d4e-423d-8f73-7eafca619739",
+                "id": "7a495924-72bb-46ab-bad4-f65398989437",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[DELETE]::/api/dataentities/:dataEntityName/schemas/:schemaName - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -2791,7 +2791,7 @@
       "event": []
     },
     {
-      "id": "94259dbf-21b1-47a3-83cc-9359a834098c",
+      "id": "56c1676a-a91a-48b6-b249-63b98d35c547",
       "name": "Indices",
       "description": {
         "content": "Create alternative keys for data entities.",
@@ -2799,7 +2799,7 @@
       },
       "item": [
         {
-          "id": "2606eff5-379d-4d12-b368-3770b40ade54",
+          "id": "ebf04e6a-5b1a-4fc0-bbf8-066144c80129",
           "name": "Get indices",
           "request": {
             "name": "Get indices",
@@ -2856,7 +2856,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "d87ab0d2-6e16-4d7c-84bc-819291a5f681",
+              "id": "abfa270e-2e03-4b82-adc2-6a3db86f67e2",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -2939,7 +2939,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "2e6837a5-a6e1-47a5-bc11-5672b3588eea",
+                "id": "6f9f569a-a256-4aca-8458-bc94a6bcae75",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/dataentities/:dataEntityName/indices - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -2952,7 +2952,7 @@
           }
         },
         {
-          "id": "701209c1-82da-4935-a000-1493c64ffd98",
+          "id": "976805be-cb75-494e-b7b7-9a6963c275b6",
           "name": "Put indices",
           "request": {
             "name": "Put indices",
@@ -3024,7 +3024,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "8414a4a4-6036-4995-8c70-9659c92aa0da",
+              "id": "23c1510f-9c4c-4dbe-ac3e-df0820e237a8",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -3106,7 +3106,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "5ec39c1a-d361-44b0-9d12-00f32a3d2cee",
+                "id": "fe20548c-3a89-4a65-abee-33a357faab45",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/api/dataentities/:dataEntityName/indices - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -3119,7 +3119,7 @@
           }
         },
         {
-          "id": "0a232f13-eae8-4b13-9914-9c4f647fa8cd",
+          "id": "b72c2f5d-e099-40da-9dbb-5c293ee31b89",
           "name": "Get index by name",
           "request": {
             "name": "Get index by name",
@@ -3187,7 +3187,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "e5a3afae-88df-4784-969b-9ffa8bf7145b",
+              "id": "126e62ee-8bcc-457c-a6b2-1aa524fb0a85",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -3281,7 +3281,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "bd02de4b-376d-4139-876c-9989f0cc44f1",
+                "id": "1c70c815-c9e8-4f44-95c4-31441c93b609",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/dataentities/:dataEntityName/indices/:index_name - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -3294,7 +3294,7 @@
           }
         },
         {
-          "id": "907040ce-f3eb-4a75-b479-6cf8c0bac185",
+          "id": "3940172f-4848-4e55-ac7a-c0d29d060f70",
           "name": "Delete index by name",
           "request": {
             "name": "Delete index by name",
@@ -3362,7 +3362,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "c2ec2a65-efee-4e48-9d65-94ea227bab3f",
+              "id": "ffc1258f-7880-4c50-b5d6-cfa86771ca81",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -3456,7 +3456,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "5d0c1326-ab7e-4590-b168-85a1fe2d667a",
+                "id": "a1204279-810f-4858-808a-004b10bf8f0e",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[DELETE]::/api/dataentities/:dataEntityName/indices/:index_name - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -3472,7 +3472,7 @@
       "event": []
     },
     {
-      "id": "041bde8f-14b6-4014-8dad-31d21de74a99",
+      "id": "8209d1e7-5d5f-4642-9788-21822ff26364",
       "name": "Clusters",
       "description": {
         "content": "Lets you know if a particular document is in one or more clusters.",
@@ -3480,7 +3480,7 @@
       },
       "item": [
         {
-          "id": "9c633302-785e-4ce5-95c2-6daf24fbeea2",
+          "id": "63680c60-acd7-4078-adbe-597d7bd5ed68",
           "name": "Validate document by clusters",
           "request": {
             "name": "Validate document by clusters",
@@ -3564,7 +3564,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "ecd3bd9b-8b2a-4eac-ae3a-1a632fd4cd66",
+              "id": "03950512-f0f5-4d6a-ba47-0f065abeb735",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -3667,7 +3667,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "bab7bd34-e62f-4c41-a756-65f439b772ea",
+                "id": "e5b1ee93-841e-4eb4-a782-264fdde04e65",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/dataentities/:dataEntityName/documents/:id/clusters - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -3683,7 +3683,7 @@
       "event": []
     },
     {
-      "id": "539ee7e7-51f5-4941-847e-d38f0e4f3c49",
+      "id": "fd8afab0-3cad-496c-894f-8b23083105e9",
       "name": "Versions",
       "description": {
         "content": "Master Data documents are versioned. This means that for each change a new version is generated. The `versions` APIs allows to query the versions and also apply the state of a document to the most current version.",
@@ -3691,7 +3691,7 @@
       },
       "item": [
         {
-          "id": "fc6f04c5-aebd-4bdb-9264-ef26d8756be8",
+          "id": "df99df66-2b1d-4a3b-a500-8308c0be6e30",
           "name": "List versions",
           "request": {
             "name": "List versions",
@@ -3785,7 +3785,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "07e26e4f-79dc-4ea1-bfeb-7a1ced1fc0bb",
+              "id": "92531f6e-4ce5-4d82-8f6a-915f17896ab8",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -3902,7 +3902,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "e8598451-274e-40e0-a40a-3a55bea0b99d",
+                "id": "c43e6be5-b4da-4dd4-b964-9bd41c0ba659",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/dataentities/:dataEntityName/documents/:id/versions - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -3918,7 +3918,7 @@
           }
         },
         {
-          "id": "59323980-ad86-41d7-82d7-f57fb5004c41",
+          "id": "3ba7cfb3-c303-472a-a321-548faa19ebca",
           "name": "Get version",
           "request": {
             "name": "Get version",
@@ -4004,7 +4004,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "724ff20c-6860-42fc-ab0a-d98df8fb2274",
+              "id": "17849ae7-dbec-4162-9932-3ad78788d582",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -4123,7 +4123,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "ddd8ffe7-b333-4d01-8515-a65e090890c1",
+                "id": "94eca53f-2391-4c75-8c1b-d3d9b12fabd8",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/dataentities/:dataEntityName/documents/:id/versions/:versionId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -4139,7 +4139,7 @@
           }
         },
         {
-          "id": "21fcf9a2-1b44-4df9-96e2-b3caa40331aa",
+          "id": "3568221e-3020-41d6-aa67-d5bc9adcc7a2",
           "name": "Put version",
           "request": {
             "name": "Put version",
@@ -4225,7 +4225,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "95516b84-6fb8-4de6-bb3b-83dbd674a03e",
+              "id": "8965d52f-c030-4ab0-b128-a90f7fad3efd",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -4344,7 +4344,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "7e896550-180c-45f9-92cd-e9ebabd2aa35",
+                "id": "1272718b-988c-4374-a161-fdff9569b472",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/api/dataentities/:dataEntityName/documents/:id/versions/:versionId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -4363,7 +4363,7 @@
       "event": []
     },
     {
-      "id": "b124a5d8-3293-4161-bc56-9a0b7dea9bb8",
+      "id": "c1713254-68a4-454e-a291-594e7ed5d04c",
       "name": "Customer profiles",
       "description": {
         "content": "",
@@ -4371,7 +4371,7 @@
       },
       "item": [
         {
-          "id": "54ef2235-ebdb-40eb-b27b-588412185a81",
+          "id": "37f90ead-00b2-46a9-9759-759c516ed802",
           "name": "Create new customer profile",
           "request": {
             "name": "Create new customer profile",
@@ -4447,7 +4447,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "6d53750b-e230-4fa8-9968-2475480df782",
+              "id": "62c097c4-c9b2-415c-93a5-95ebb35e3e18",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -4546,7 +4546,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "40b42610-1bfa-4d38-9215-4d62b528c5c8",
+                "id": "7f068f62-e6f4-4161-b402-fe5283719a3d",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/dataentities/Client/documents - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -4562,7 +4562,7 @@
           }
         },
         {
-          "id": "e9906480-ad1f-448c-ad8d-3daaa1728e68",
+          "id": "761da458-294b-4dc1-a1c5-a7b3c4a32379",
           "name": "Update customer profile",
           "request": {
             "name": "Update customer profile",
@@ -4649,7 +4649,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "695cfc72-a048-467a-ac9d-64add2d94ef0",
+              "id": "a0898b61-a611-4d33-b613-8361b4f896c2",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -4759,7 +4759,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "949af4bd-377f-42e6-b9b4-83ac1870860f",
+                "id": "06f060c1-d6a9-4531-9a2d-68dfb6736f00",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PATCH]::/api/dataentities/Client/documents/:id - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -4775,7 +4775,7 @@
           }
         },
         {
-          "id": "7bb38112-b2ad-4e97-b7df-d50699127a04",
+          "id": "d103b0d9-647f-4664-a177-d8a49b4a2f2c",
           "name": "Delete customer profile",
           "request": {
             "name": "Delete customer profile",
@@ -4839,7 +4839,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "15dee0cd-1f34-40f2-bb4c-06f4075e7fd0",
+              "id": "353d70cc-abf9-40eb-aafd-e856bc7b078f",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -4936,7 +4936,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "1d8a4e17-d0ce-4b5d-928d-1e590767c982",
+                "id": "e4928250-941c-4a8d-bfcc-4c1f902260a6",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[DELETE]::/api/dataentities/Client/documents/:id - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -4955,7 +4955,7 @@
       "event": []
     },
     {
-      "id": "97cc9d6e-0fe2-4d06-85f8-5922180b2b6d",
+      "id": "441bf763-8887-417d-8510-356045cebeff",
       "name": "Addresses",
       "description": {
         "content": "",
@@ -4963,7 +4963,7 @@
       },
       "item": [
         {
-          "id": "d385903c-bfb1-49ce-9eec-ad48c9590e68",
+          "id": "34396da8-f6cd-437f-b36a-c587ff54a671",
           "name": "Create new customer address",
           "request": {
             "name": "Create new customer address",
@@ -5039,7 +5039,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "77078333-f694-47b9-8899-f2e5d0cee3a9",
+              "id": "44dd3b3f-3c52-4331-aa42-4c2e816907e4",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -5138,7 +5138,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "ce795b95-69c8-427a-8ba0-a049af8ef14c",
+                "id": "5f77883c-c0cf-4acd-9963-87ddcdb23dac",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/dataentities/Address/documents - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -5154,7 +5154,7 @@
           }
         },
         {
-          "id": "10466b81-8328-473d-8193-53ddb2c4e247",
+          "id": "fb86eefb-9d63-4359-82ef-d10e290ff2af",
           "name": "Update customer address",
           "request": {
             "name": "Update customer address",
@@ -5241,7 +5241,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "d1ee72e5-a1b8-445c-b13d-093d99028d4b",
+              "id": "e09cf7a7-23b5-48c3-a2c8-91513b89e776",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -5351,7 +5351,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "a736419b-9b46-421b-85e5-8b97e20a2d8a",
+                "id": "8744ce5c-477f-4846-bf17-cd7405a25c63",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PATCH]::/api/dataentities/Address/documents/:id - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -5367,7 +5367,7 @@
           }
         },
         {
-          "id": "f2e6ddb8-a21e-42a5-8697-1400e07aa973",
+          "id": "796946a7-db82-42aa-a0c0-efd33dac58b9",
           "name": "Delete customer address",
           "request": {
             "name": "Delete customer address",
@@ -5431,7 +5431,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "5c8e0555-ae55-495b-93b3-824063d5b13e",
+              "id": "719c8ba0-915b-4910-ab08-f9af8b965195",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -5528,7 +5528,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "d51b1b90-a5dd-4836-a52b-e1e60cb257ba",
+                "id": "7cd89733-4951-4f59-86c4-ddaae577e931",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[DELETE]::/api/dataentities/Address/documents/:id - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -5594,7 +5594,7 @@
     }
   ],
   "info": {
-    "_postman_id": "965dbbb3-f3be-4dcc-b9cf-042b967e1fc2",
+    "_postman_id": "c5a52799-3b50-436d-a156-e8cb747bda23",
     "name": "Master Data API - v2",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
     "description": {

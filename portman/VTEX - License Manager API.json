@@ -1,10 +1,10 @@
 {
   "_": {
-    "postman_id": "92eeb7e1-3d9c-4f85-b994-9592f09da466"
+    "postman_id": "ece77ff3-5512-470d-834a-e50731d6f66d"
   },
   "item": [
     {
-      "id": "708481a0-284c-4d30-aa79-f1ee2b851fa0",
+      "id": "192002da-e1f6-4c48-879a-be3433afe86a",
       "name": "User",
       "description": {
         "content": "",
@@ -12,7 +12,7 @@
       },
       "item": [
         {
-          "id": "4465b521-aa5b-4cc9-94e1-796aa4967057",
+          "id": "2b89adb3-6eda-48d4-91dd-06991bc48065",
           "name": "Get User",
           "request": {
             "name": "Get User",
@@ -39,7 +39,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "dolor magna in irure",
+                  "value": "nulla qui",
                   "key": "userId"
                 },
                 {
@@ -75,7 +75,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "08b45e71-83d3-4a07-b0dc-736e9cd28555",
+              "id": "63e58592-fc75-46e2-bdd4-8f855fe380fe",
               "name": "Success",
               "originalRequest": {
                 "url": {
@@ -97,7 +97,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "dolor magna in irure",
+                      "value": "nulla qui",
                       "key": "userId"
                     },
                     {
@@ -161,7 +161,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "f742a58a-d494-451a-88e9-3f0798867322",
+              "id": "d379afb9-0cc9-48be-bff4-615d0e74c5ca",
               "name": "Bad Request",
               "originalRequest": {
                 "url": {
@@ -183,7 +183,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "dolor magna in irure",
+                      "value": "nulla qui",
                       "key": "userId"
                     },
                     {
@@ -247,7 +247,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "4ca6c6d4-c03f-49d0-8da7-ed4822c0acd9",
+              "id": "a2b2e00f-24c6-4ba1-a667-0a34fbced903",
               "name": "Method Not Allowed - A null `userId` sends the request to a path that is not allowed.",
               "originalRequest": {
                 "url": {
@@ -269,7 +269,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "dolor magna in irure",
+                      "value": "nulla qui",
                       "key": "userId"
                     },
                     {
@@ -330,7 +330,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "fed984e0-4fb5-4759-b827-f830cf1a8dbe",
+                "id": "b4a17f10-8db6-4892-9794-5c9385ea6f22",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/license-manager/users/:userId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -346,7 +346,7 @@
           }
         },
         {
-          "id": "1c2b0232-e63f-494a-bb9b-4e50aae4d9dd",
+          "id": "75b9589a-34fe-422b-846c-4cbc205b5915",
           "name": "Create User",
           "request": {
             "name": "Create User",
@@ -411,7 +411,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "874e9fa4-ee9a-48fb-8ded-620e72b3260e",
+              "id": "1f6b0c14-4462-426d-9914-9ac12dec46ce",
               "name": "Success",
               "originalRequest": {
                 "url": {
@@ -485,7 +485,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "01c6e541-5d51-4634-bbe1-4c21b75a3915",
+              "id": "27daf89f-15e8-41f5-8d07-ac58b93a7e69",
               "name": "Bad Request",
               "originalRequest": {
                 "url": {
@@ -560,7 +560,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "496aa2ab-e593-4ef4-9c18-c9e309ff95fe",
+                "id": "5cebeadc-bd36-489f-b2f6-dabeb0a25ad7",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/license-manager/users - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -576,7 +576,7 @@
           }
         },
         {
-          "id": "5f810377-b1e9-4107-90ce-e85179f48864",
+          "id": "da972fa1-c9eb-450c-b5cf-f6c4054bfe21",
           "name": "Get List of Users",
           "request": {
             "name": "Get List of Users",
@@ -669,7 +669,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "b0d214cc-5b41-4d68-9d00-147a25b8ab88",
+              "id": "b6aae200-58ac-425d-959a-dcae44fad98e",
               "name": "Success",
               "originalRequest": {
                 "url": {
@@ -766,7 +766,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "73a7130a-2aec-40f9-95f5-174889a46812",
+                "id": "cf53c51c-3d76-47a0-88b1-3474d946aa2f",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/license-manager/site/pvt/logins/list/paged - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -785,7 +785,7 @@
       "event": []
     },
     {
-      "id": "6a745caf-f1c9-419e-b5ab-a0ea1c28e70e",
+      "id": "9d8f8ff9-4f3e-40cb-9868-1ec63f71588a",
       "name": "App Keys",
       "description": {
         "content": "",
@@ -793,7 +793,7 @@
       },
       "item": [
         {
-          "id": "4a3d614e-b446-4591-be5a-6d24051210cc",
+          "id": "ba4886bb-a1c5-4c47-be19-8edba35cef38",
           "name": "Create new appkey",
           "request": {
             "name": "Create new appkey",
@@ -858,7 +858,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "09c487c0-a561-4973-9073-437c8d50ddd6",
+              "id": "7576fb04-dfb8-4e36-9e78-ceb3474f04d8",
               "name": "Success",
               "originalRequest": {
                 "url": {
@@ -933,7 +933,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "8de8ec5a-c059-443d-8aab-ccc3864b8891",
+                "id": "d0a0e917-18a2-4756-b0a5-f2112f05a6e0",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/api/vlm/appkeys - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -949,7 +949,7 @@
           }
         },
         {
-          "id": "ce186167-0203-4302-b9df-59205907df7d",
+          "id": "e66347d8-2e5c-41a0-bf24-2d7fe3b6b3dd",
           "name": "Get appKeys from account",
           "request": {
             "name": "Get appKeys from account",
@@ -1001,7 +1001,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "ced6c2dd-93e2-4893-8366-74ac70358445",
+              "id": "00eccd81-4a93-4186-bdbc-d4b6fa9f642d",
               "name": "Success",
               "originalRequest": {
                 "url": {
@@ -1077,7 +1077,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "25d4a5ab-12db-4133-b3e5-9376a53d4dce",
+                "id": "6b7d5ac4-afc8-49f7-aba3-46d2417d9a13",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/vlm/appkeys - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -1093,7 +1093,7 @@
           }
         },
         {
-          "id": "2d247c9e-3d2e-43d5-841d-a8d3224f28e6",
+          "id": "1e7b9714-8000-4cc6-92e2-884bf92c8cae",
           "name": "Update appkey",
           "request": {
             "name": "Update appkey",
@@ -1120,7 +1120,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "dolor magna in irure",
+                  "value": "nulla qui",
                   "key": "id"
                 },
                 {
@@ -1169,7 +1169,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "511089d4-d4dc-425f-a9aa-8c9ad520f04d",
+              "id": "9926a980-6f90-45cb-a031-23f95a32dec1",
               "name": "Success",
               "originalRequest": {
                 "url": {
@@ -1191,7 +1191,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "dolor magna in irure",
+                      "value": "nulla qui",
                       "key": "id"
                     },
                     {
@@ -1250,7 +1250,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "5ba498ad-0f1e-4be4-8f61-94dd117e0255",
+              "id": "14bd8d45-8e4d-48b5-8f9f-6b79d3f999ca",
               "name": "Bad Request",
               "originalRequest": {
                 "url": {
@@ -1272,7 +1272,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "dolor magna in irure",
+                      "value": "nulla qui",
                       "key": "id"
                     },
                     {
@@ -1336,7 +1336,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "4a954aa3-d890-4a00-8865-b0e92e466696",
+                "id": "72f836ce-994c-4191-bbf3-25773fba3a99",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/api/vlm/appkeys/:id - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -1352,7 +1352,7 @@
       "event": []
     },
     {
-      "id": "a6d41cf9-3123-403d-aaf2-c5baa13a4d2d",
+      "id": "fedbe065-2641-4dc8-bb0e-5911e8c223f4",
       "name": "Roles",
       "description": {
         "content": "",
@@ -1360,7 +1360,7 @@
       },
       "item": [
         {
-          "id": "a1b90783-ae2b-4153-a771-32e2b6883d1b",
+          "id": "0c44da8c-468a-4d78-aa44-b0e2dbaf559d",
           "name": "Put Roles in User/appKey",
           "request": {
             "name": "Put Roles in User/appKey",
@@ -1388,7 +1388,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "dolor magna in irure",
+                  "value": "nulla qui",
                   "key": "userId"
                 },
                 {
@@ -1437,7 +1437,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "f0391473-ef22-4f38-95bf-7f63aaa36efb",
+              "id": "9074d5c2-8030-4e3b-92c4-d3e2fb6276ad",
               "name": "Success - A no-content response, but the roles were added successfully.",
               "originalRequest": {
                 "url": {
@@ -1460,7 +1460,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "dolor magna in irure",
+                      "value": "nulla qui",
                       "key": "userId"
                     },
                     {
@@ -1519,7 +1519,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "c309eb8b-7178-48e0-8d43-ae49149a72fe",
+              "id": "e13c816a-0a09-45c6-9315-84c1b237d5ee",
               "name": "Bad Request - A userId or role list with invalid format. The message on the body of the response will contain further information.",
               "originalRequest": {
                 "url": {
@@ -1542,7 +1542,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "dolor magna in irure",
+                      "value": "nulla qui",
                       "key": "userId"
                     },
                     {
@@ -1605,7 +1605,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "48fecab7-6f9c-46a1-aad6-7627f9cc9f90",
+              "id": "01925a51-49ea-4ce3-8f28-95366c004e1c",
               "name": "Unexpected error - One possible reason is that the userId is not present on the database.",
               "originalRequest": {
                 "url": {
@@ -1628,7 +1628,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "dolor magna in irure",
+                      "value": "nulla qui",
                       "key": "userId"
                     },
                     {
@@ -1692,7 +1692,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "42b2fdda-b56a-4afa-a7aa-fe63f191525e",
+                "id": "90243ab9-3aa7-4eb8-bd1f-acdb28b6636d",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/api/license-manager/users/:userId/roles - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -1706,7 +1706,7 @@
           }
         },
         {
-          "id": "703248d9-08bb-4da4-89f2-227c276a95eb",
+          "id": "5963faaf-7b91-444d-afe2-f010913f6ccd",
           "name": "Get Roles by User/appKey",
           "request": {
             "name": "Get Roles by User/appKey",
@@ -1734,7 +1734,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "dolor magna in irure",
+                  "value": "nulla qui",
                   "key": "userId"
                 },
                 {
@@ -1770,7 +1770,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "b2476519-9801-4cad-a76f-7ae83f787845",
+              "id": "54863c7d-7eb6-4adf-8e86-338a4a8aaa14",
               "name": "Success",
               "originalRequest": {
                 "url": {
@@ -1793,7 +1793,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "dolor magna in irure",
+                      "value": "nulla qui",
                       "key": "userId"
                     },
                     {
@@ -1858,7 +1858,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "a30d054a-e778-4859-ae7b-94640983cb92",
+                "id": "96e11766-d5e3-47c6-9ea8-8d2d49efa59c",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/license-manager/users/:userId/roles - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -1874,7 +1874,7 @@
           }
         },
         {
-          "id": "7023cb0c-8853-4596-bdb8-e8f0fe1e2418",
+          "id": "d2a1be2a-fa7c-431a-8e7e-1587693e2f78",
           "name": "Remove Role from User/appKey",
           "request": {
             "name": "Remove Role from User/appKey",
@@ -1903,7 +1903,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "dolor magna in irure",
+                  "value": "nulla qui",
                   "key": "userId"
                 },
                 {
@@ -1913,7 +1913,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "dolor magna in irure",
+                  "value": "nulla qui",
                   "key": "roleId"
                 },
                 {
@@ -1949,7 +1949,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "47cec402-d7d5-4218-9606-60fa891a8607",
+              "id": "4ce4ad8e-bfbf-4c75-9f3a-2882b254e4d3",
               "name": "Success - A no-content response, but the role deletion was performed successfully.",
               "originalRequest": {
                 "url": {
@@ -1973,7 +1973,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "dolor magna in irure",
+                      "value": "nulla qui",
                       "key": "userId"
                     },
                     {
@@ -1983,7 +1983,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "dolor magna in irure",
+                      "value": "nulla qui",
                       "key": "roleId"
                     },
                     {
@@ -2043,7 +2043,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "20b2dafc-9dc3-4cec-9eae-71dd96183e0a",
+              "id": "afb8be74-1306-4e25-b0a9-6eb204daf395",
               "name": "Bad Request - A userId or role list with invalid format. The message on the body of the response will contain further information.",
               "originalRequest": {
                 "url": {
@@ -2067,7 +2067,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "dolor magna in irure",
+                      "value": "nulla qui",
                       "key": "userId"
                     },
                     {
@@ -2077,7 +2077,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "dolor magna in irure",
+                      "value": "nulla qui",
                       "key": "roleId"
                     },
                     {
@@ -2141,7 +2141,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "c621a655-f554-4d5c-84e0-beba0d9259a5",
+              "id": "5610827f-99e0-4c8d-8826-0f4bdd7d9310",
               "name": "Method Not Allowed",
               "originalRequest": {
                 "url": {
@@ -2165,7 +2165,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "dolor magna in irure",
+                      "value": "nulla qui",
                       "key": "userId"
                     },
                     {
@@ -2175,7 +2175,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "dolor magna in irure",
+                      "value": "nulla qui",
                       "key": "roleId"
                     },
                     {
@@ -2236,7 +2236,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "48ab90b9-714f-4089-9dd1-9f5dc89be2cd",
+                "id": "00958c77-6bac-4bff-bff0-2820342de7c1",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[DELETE]::/api/license-manager/users/:userId/roles/:roleId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -2250,7 +2250,7 @@
           }
         },
         {
-          "id": "cc5207b9-c81a-4b5f-8d1e-af92f7dfe807",
+          "id": "af76c8c0-dcef-4987-9164-9b6774e7176f",
           "name": "Get List of Roles",
           "request": {
             "name": "Get List of Roles",
@@ -2343,7 +2343,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "42abe11b-b30b-4e7f-a9db-f99abead4143",
+              "id": "c92fe0b9-1142-43e1-b701-01f25a4ab007",
               "name": "Success",
               "originalRequest": {
                 "url": {
@@ -2440,7 +2440,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "088d597e-5958-43b4-93eb-5f9a42d5bac4",
+                "id": "1c74aa04-0a94-409b-9565-c3254f14f6f0",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/license-manager/site/pvt/roles/list/paged - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -2459,7 +2459,7 @@
       "event": []
     },
     {
-      "id": "a7ada2c0-65a3-4492-b58f-9fde00e2675f",
+      "id": "9207412c-5f7f-44e5-b870-aae6c62c977a",
       "name": "Store",
       "description": {
         "content": "",
@@ -2467,7 +2467,7 @@
       },
       "item": [
         {
-          "id": "86fdd8c9-16d5-4970-9490-a19d604da530",
+          "id": "8e7a3d76-505a-4f59-ac41-f9c3508c1f39",
           "name": "Get Stores",
           "request": {
             "name": "Get Stores",
@@ -2520,7 +2520,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "8098e1cc-9c6e-4c6a-8fea-97d0031765f5",
+              "id": "9899f939-df2b-46da-978c-d63dc4f82b11",
               "name": "Success",
               "originalRequest": {
                 "url": {
@@ -2588,7 +2588,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "9f76175e-9627-4796-a190-f1d878fb306f",
+                "id": "3a7ad4a1-c668-4ad1-84cc-8664ed8df451",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/vlm/account/stores - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -2607,7 +2607,7 @@
       "event": []
     },
     {
-      "id": "0f3d7a53-9e5d-462f-a2b7-01f803c342fa",
+      "id": "7f6c247c-46ca-42ce-b648-666190c2806f",
       "name": "Account",
       "description": {
         "content": "",
@@ -2615,7 +2615,7 @@
       },
       "item": [
         {
-          "id": "3e4cba1a-0de7-45d4-b76a-065f57a2e801",
+          "id": "995c3ec9-f7ef-46e0-816d-59accfafbe83",
           "name": "Get information about account",
           "request": {
             "name": "Get information about account",
@@ -2667,7 +2667,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "9c2cb0c3-382f-4cab-96aa-55fbb196e000",
+              "id": "31e1e7ab-27c7-48a0-ae87-07d723363509",
               "name": "Success",
               "originalRequest": {
                 "url": {
@@ -2734,7 +2734,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "79b30359-54a8-4c17-ba54-86a6a4b03ec0",
+                "id": "6104ecd0-a8ed-4398-864a-ff436916f311",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/vlm/account - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -2800,7 +2800,7 @@
     }
   ],
   "info": {
-    "_postman_id": "92eeb7e1-3d9c-4f85-b994-9592f09da466",
+    "_postman_id": "ece77ff3-5512-470d-834a-e50731d6f66d",
     "name": "License Manager API",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
     "description": {

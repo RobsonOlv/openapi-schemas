@@ -1,10 +1,10 @@
 {
   "_": {
-    "postman_id": "65547d48-ae54-4969-8cb3-cfbc6b4bef6e"
+    "postman_id": "d657216d-60c6-4f2a-99f8-ea3e8d1589d8"
   },
   "item": [
     {
-      "id": "fef4206d-b5cb-4826-a7fb-d8ddab61fc97",
+      "id": "e725e550-f4ea-4fd2-b2ec-bb6f3467c219",
       "name": "Pages",
       "description": {
         "content": "",
@@ -12,7 +12,7 @@
       },
       "item": [
         {
-          "id": "48d03c5c-f2d1-4a5c-853a-d9645f8cf107",
+          "id": "b3d615af-dad0-47ab-a0b1-9c6df6b94f9e",
           "name": "Get all Content Types",
           "request": {
             "name": "Get all Content Types",
@@ -67,7 +67,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "1786a236-da9b-4c9d-bb75-1823fb00bdbd",
+              "id": "0fe35355-9e56-4efd-968d-dec321bfcaf5",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -128,7 +128,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "dc75f668-7e03-4502-8ae2-d58b8ffaeb11",
+              "id": "41c3d42c-e246-470c-831e-fac702c22c83",
               "name": "Not Found",
               "originalRequest": {
                 "url": {
@@ -183,7 +183,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "0798f1e4-4199-48c1-ae1d-c0ae8164b345",
+              "id": "3173afce-4683-4967-950a-84c2338cbdea",
               "name": "Internal Server Error",
               "originalRequest": {
                 "url": {
@@ -239,7 +239,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "fa17a829-3160-4713-9696-d71297266c21",
+                "id": "85a1ea98-12fe-4245-a596-b0dd3ee29f97",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/_v/cms/api/:builderId/ - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -255,7 +255,7 @@
           }
         },
         {
-          "id": "e781c9ee-5821-4ea1-93db-de9c12d20601",
+          "id": "bee9e0bb-74af-43f2-acfe-59373d2cd805",
           "name": "Get all CMS pages by Content Type",
           "request": {
             "name": "Get all CMS pages by Content Type",
@@ -348,7 +348,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "4448a54c-005f-4ce2-8595-b3aacc444ed8",
+              "id": "7c7e98a2-2e36-4423-8fc3-c47d7a1c45f6",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -432,7 +432,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "65153015-3421-4b9d-b92e-4f32066423ae",
+              "id": "97e37262-890c-493b-a212-f67ddeaef92b",
               "name": "Not Found",
               "originalRequest": {
                 "url": {
@@ -510,7 +510,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "e945a1c0-2ffd-41b9-bf78-fff45d3de5c1",
+              "id": "3d50a834-eec2-433c-9d2b-b7fabfae685f",
               "name": "Internal Server Error",
               "originalRequest": {
                 "url": {
@@ -589,7 +589,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "2426d32b-fcff-4585-a87d-59450b98ee55",
+                "id": "b1f7b61f-76c3-47e4-9092-363ea4dabcad",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/_v/cms/api/:builderId/:content-type - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -605,7 +605,7 @@
           }
         },
         {
-          "id": "f6a917c1-2926-4691-bdfe-e2353150f124",
+          "id": "f6ffcf48-fe12-4f5f-9f24-18c519dcd54c",
           "name": "Get CMS page",
           "request": {
             "name": "Get CMS page",
@@ -701,7 +701,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "94a57b84-39c4-4de4-887e-50bf2bbf2e7f",
+              "id": "d11bb2d4-3b71-455d-8988-645a4d3d09e3",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -786,14 +786,14 @@
                   "value": "application/json"
                 }
               ],
-              "body": "{\n  \"id\": \"enim officia\",\n  \"name\": \"exercitation id magna do\",\n  \"type\": \"aute\",\n  \"status\": \"sint ut minim\",\n  \"versionId\": \"nisi ci\",\n  \"versionStatus\": \"dolore nostrud tempor ullamco\",\n  \"sections\": [\n    {\n      \"id\": \"culpa commodo enim laboris ut\",\n      \"name\": \"mollit magna incididunt dolore dolor\",\n      \"data\": {}\n    },\n    {\n      \"id\": \"incididunt tempor labore ullamco ut\",\n      \"name\": \"nisi enim cillum dolore\",\n      \"data\": {}\n    }\n  ]\n}",
+              "body": "{\n  \"id\": \"veniam reprehenderit ea\",\n  \"name\": \"ad minim id officia\",\n  \"type\": \"ut anim ad ipsum in\",\n  \"status\": \"ex incididunt quis amet\",\n  \"versionId\": \"irure deserunt\",\n  \"versionStatus\": \"sed vel\",\n  \"sections\": [\n    {\n      \"id\": \"sed voluptate commodo nulla in\",\n      \"name\": \"cupidatat nisi ut aliquip sed\",\n      \"data\": {}\n    },\n    {\n      \"id\": \"officia anim\",\n      \"name\": \"amet occaecat tempor\",\n      \"data\": {}\n    }\n  ]\n}",
               "cookie": []
             },
             {
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "f8a25304-7afe-4787-99b6-bf228c402b83",
+              "id": "02462f04-49cf-488c-b8d1-b3c75a845645",
               "name": "Not Found",
               "originalRequest": {
                 "url": {
@@ -879,7 +879,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "3625dce9-e2f1-401f-ade8-3e04c29aa3b8",
+              "id": "c667fcee-84b3-45d2-b4aa-2dd3d91c50d2",
               "name": "Internal Server Error",
               "originalRequest": {
                 "url": {
@@ -966,7 +966,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "83cf26cb-2a78-4859-b65f-d5a3858b05e7",
+                "id": "24e1ddd2-95b3-46be-bf30-94ef439a04b5",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/_v/cms/api/:builderId/:content-type/:document-id/ - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -1003,7 +1003,7 @@
     }
   ],
   "info": {
-    "_postman_id": "65547d48-ae54-4969-8cb3-cfbc6b4bef6e",
+    "_postman_id": "d657216d-60c6-4f2a-99f8-ea3e8d1589d8",
     "name": "VTEX Headless CMS",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
     "description": {

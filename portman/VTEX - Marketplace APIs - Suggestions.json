@@ -1,10 +1,10 @@
 {
   "_": {
-    "postman_id": "46456bc1-3440-4bf5-9bec-ecf459bf7a04"
+    "postman_id": "b94f2212-0c40-4c5a-9a6f-a206114c0bc7"
   },
   "item": [
     {
-      "id": "dc931501-b998-45c5-a852-beb6fcb8d9d5",
+      "id": "27585c7b-e6c7-4f8b-a3b5-b3b46a3e5532",
       "name": "Get Suggestions",
       "description": {
         "content": "Search and filter all suggestions using specific criteria",
@@ -12,7 +12,7 @@
       },
       "item": [
         {
-          "id": "7db8fd2f-6ebb-4143-b807-adc186ec2378",
+          "id": "effdaa0b-28f9-4825-9be2-3efe02fd1a14",
           "name": "Get all SKU suggestions",
           "request": {
             "name": "Get all SKU suggestions",
@@ -121,7 +121,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "774c99bc-eb00-4932-b84c-cfbf42e86b89",
+              "id": "2efe699b-874a-4b28-9fcf-99b48fc40eb2",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -225,7 +225,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "9d322e19-3550-47dd-ab9f-611606af4feb",
+                "id": "7c3cd09d-4169-4397-a320-d626f1e5a44f",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/suggestions - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -238,7 +238,7 @@
           }
         },
         {
-          "id": "e4c75cb5-fec3-48b5-b045-5c82c6c9448f",
+          "id": "136d7146-faa3-4ece-9a00-33d4daf03db5",
           "name": "Get SKU Suggestion by ID",
           "request": {
             "name": "Get SKU Suggestion by ID",
@@ -296,7 +296,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "9c03fabd-dd59-4e28-92e8-a7473c8a2b05",
+              "id": "8d51f57a-f71a-428d-b7ae-9d43b8610a07",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -389,7 +389,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "26cf5d57-6198-49c7-9762-a39ebdc65296",
+                "id": "3e5fb284-2304-4133-83bb-41f346277d24",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/suggestions/:sellerId/:sellerSkuId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -405,7 +405,7 @@
       "event": []
     },
     {
-      "id": "b4f17feb-cdbd-4ada-9c9e-5aaf4bac7b72",
+      "id": "9545e1b5-7d13-4c1f-8cc0-aa96974caae0",
       "name": "Manage Suggestions",
       "description": {
         "content": "Send or delete SKU suggestions from the seller to marketplace",
@@ -413,7 +413,7 @@
       },
       "item": [
         {
-          "id": "7836c630-315e-41c1-ac6d-6737ed0020d8",
+          "id": "0922ada9-89a2-48d5-9d0b-4c634647e129",
           "name": "Send SKU Suggestion",
           "request": {
             "name": "Send SKU Suggestion",
@@ -486,7 +486,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "e6297551-641a-4274-8b85-64aaa6d457ce",
+              "id": "c2bdc8ac-bcf0-4c93-92d7-b6e1ba4e5d70",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -587,7 +587,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "4f83afe7-4185-4098-b09f-686690fdb1f6",
+                "id": "63753e61-6d95-41ff-8d26-057250720899",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/suggestions/:sellerId/:sellerSkuId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -600,7 +600,7 @@
           }
         },
         {
-          "id": "c2ac55a4-0ecc-4970-81d5-90acc957e5c9",
+          "id": "86f0bef0-222e-4dd2-bd76-5a2c2c0903aa",
           "name": "Delete SKU Suggestion",
           "request": {
             "name": "Delete SKU Suggestion",
@@ -658,7 +658,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "f53741aa-8385-4e26-8ac6-db55f20a4c29",
+              "id": "3d8e2e0b-ce0b-4e5d-b677-cd8becf497d4",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -751,7 +751,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "d35ff635-d496-4225-913b-217a2177b7bd",
+                "id": "f0c17343-3f74-45b0-b302-5109e027a819",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[DELETE]::/suggestions/:sellerId/:sellerSkuId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -767,7 +767,7 @@
       "event": []
     },
     {
-      "id": "3566a813-c807-4733-9d22-cd2c0ed06638",
+      "id": "065ef01b-ca04-439f-8d7c-6341d33b34c3",
       "name": "Get Versions",
       "description": {
         "content": "Search and filter all versions of suggestions, using specific criteria",
@@ -775,7 +775,7 @@
       },
       "item": [
         {
-          "id": "22442a4d-180d-4577-99d0-b3f13f5680cc",
+          "id": "8b8911e0-d3cc-421e-819d-7315f9143715",
           "name": "Get all Versions",
           "request": {
             "name": "Get all Versions",
@@ -834,7 +834,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "0a964b31-0cb3-4b68-9d48-9e46cc4bd066",
+              "id": "fb7a9bc1-c205-46f1-be49-48992451d526",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -928,7 +928,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "3a1e47ca-e13f-4fcc-a66d-60064cfd49af",
+                "id": "e2e0db37-c560-4566-8fae-88b3b97c7f49",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/suggestions/:sellerId/:sellerskuid/versions - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -941,7 +941,7 @@
           }
         },
         {
-          "id": "d064c363-fdad-4451-b193-76263ff50c8c",
+          "id": "fd9f8ca5-f6ca-4a79-8996-e0f94a1083f1",
           "name": "Get Version by ID",
           "request": {
             "name": "Get Version by ID",
@@ -1011,7 +1011,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "0a2b5df9-619d-4381-9cf9-08f30c00978c",
+              "id": "d5c21489-4557-404a-9bf3-73809b5bc984",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1116,7 +1116,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "a977bf5b-e54b-4115-a443-0eca241a0b80",
+                "id": "b84f5ba6-f4c3-4cea-9802-9ac5b8ac0d7d",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/suggestions/:sellerId/:sellerskuid/versions/:version - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -1132,7 +1132,7 @@
       "event": []
     },
     {
-      "id": "f2aebd02-173e-4696-a792-0b2217851704",
+      "id": "2c1c1edb-aeb7-489c-862d-e7c575d65ec4",
       "name": "SKU Approval Settings",
       "description": {
         "content": "",
@@ -1140,7 +1140,7 @@
       },
       "item": [
         {
-          "id": "ab9de682-2fb8-4fca-acf8-20561ccb4910",
+          "id": "7fc61f7f-d51f-4bc0-9f81-0e50d90adab7",
           "name": "Get autoApprove Status in Account Settings",
           "request": {
             "name": "Get autoApprove Status in Account Settings",
@@ -1195,7 +1195,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "72f0cd43-f482-431f-85e4-00e3c4cca0b7",
+              "id": "8e16b701-4be2-45c2-adad-bbe23d872932",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1278,7 +1278,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "ed2bbe18-145a-44d1-9078-47af2b7c77e6",
+                "id": "b2e6bce2-068d-42c9-84cd-85c2db00d841",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/suggestions/configuration/autoapproval/toggle - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -1294,7 +1294,7 @@
           }
         },
         {
-          "id": "ebffe2f6-dacd-4d10-ad48-4d7199d15a4d",
+          "id": "9dbe64e1-8eb9-48b4-90a0-f47aad5c5792",
           "name": "Activate autoApprove in Marketplace's Account",
           "request": {
             "name": "Activate autoApprove in Marketplace's Account",
@@ -1352,7 +1352,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "bcb9c780-ad7f-4ee0-acb1-54c74857d2cf",
+              "id": "6503686c-d54e-4f64-8f54-680e43044358",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1438,7 +1438,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "152ddacb-d0d6-4da0-9950-09efcf56daec",
+                "id": "b7820c3b-67e3-4506-96d6-33427611e76c",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/suggestions/configuration/autoapproval/toggle - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -1454,7 +1454,7 @@
           }
         },
         {
-          "id": "572ca5f8-3609-4a21-bd16-6dbcb6afe27e",
+          "id": "a9aff604-f75d-4413-b6c4-62dcf97df275",
           "name": "Get Account's Approval Settings",
           "request": {
             "name": "Get Account's Approval Settings",
@@ -1497,7 +1497,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "0e8c0df5-852a-40ce-8c6f-254377426713",
+              "id": "2bcfe0c6-6fd9-4d55-a721-0e722d6868e2",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1573,7 +1573,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "9f0edf1f-e5d9-4633-89e8-0dfc6baad114",
+                "id": "55b0bf15-f842-445a-8c8a-8dda90fea18b",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/suggestions/configuration - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -1589,7 +1589,7 @@
           }
         },
         {
-          "id": "82114deb-0049-4de3-b57b-920bc6405bc9",
+          "id": "d97feff4-443e-4ce6-926c-78f389e22194",
           "name": "Save Account's Approval Settings",
           "request": {
             "name": "Save Account's Approval Settings",
@@ -1645,7 +1645,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "32166911-cf6c-456a-9d3d-7e189d9fae4c",
+              "id": "6e476da8-937b-468b-9f75-4aa116af0639",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1721,7 +1721,7 @@
                   "value": "application/json"
                 }
               ],
-              "body": "{\n  \"Score\": {\n    \"Approve\": 80,\n    \"Reject\": 30\n  },\n  \"Matchers\": {\n    \"MatcherId\": \"cillum exercitation Excepteur consectetur\",\n    \"hook-base-address\": \"a\",\n    \"IsActive\": true,\n    \"UpdatesNotificationEndpoint\": \"cupidatat anim Duis esse\",\n    \"Description\": \"dolore fugiat ut consectetur\"\n  },\n  \"Rules\": {\n    \"Item\": [\n      48683948,\n      -51257147\n    ],\n    \"Product\": [\n      \"sunt aliquip ex co\",\n      \"veniam\"\n    ]\n  },\n  \"SpecificationsMapping\": {\n    \"SellerId\": \"nisi in\",\n    \"Mapping\": {}\n  },\n  \"MatchFlux\": \"aliquip voluptate\"\n}",
+              "body": "{\n  \"Score\": {\n    \"Approve\": 80,\n    \"Reject\": 30\n  },\n  \"Matchers\": {\n    \"MatcherId\": \"nisi in in nulla sunt\",\n    \"hook-base-address\": \"in dolore ullamco\",\n    \"IsActive\": true,\n    \"UpdatesNotificationEndpoint\": \"esse\",\n    \"Description\": \"proident laboris\"\n  },\n  \"Rules\": {\n    \"Item\": [\n      82994826,\n      -23112617\n    ],\n    \"Product\": [\n      \"adipisicing elit nostrud do culpa\",\n      \"eu dolor ea minim esse\"\n    ]\n  },\n  \"SpecificationsMapping\": {\n    \"SellerId\": \"velit sit Excepteur \",\n    \"Mapping\": {}\n  },\n  \"MatchFlux\": \"in laborum\"\n}",
               "cookie": []
             }
           ],
@@ -1729,7 +1729,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "dc6d5e5f-96f4-45fc-9471-5ec1d2cce31e",
+                "id": "de92f401-25b7-4dec-97cc-d849c9626402",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/suggestions/configuration - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -1745,7 +1745,7 @@
           }
         },
         {
-          "id": "92a544f3-a876-423f-9f1c-5ad3b135dd8b",
+          "id": "e4ce6dfe-cb95-4b04-926e-2c10ed8f7771",
           "name": "Get Seller's Approval Settings",
           "request": {
             "name": "Get Seller's Approval Settings",
@@ -1794,7 +1794,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "6dae4909-a67b-4b8d-ae77-69b26b68a5f8",
+              "id": "25df40d6-4895-4b89-b32b-7742627e94c0",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1878,7 +1878,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "cd28e4b4-6006-4d11-b9d0-a534411b658e",
+                "id": "bdba4e3e-44b5-4a86-9f58-6fa5aac2a3a8",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/suggestions/configuration/seller/:sellerId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -1891,7 +1891,7 @@
           }
         },
         {
-          "id": "cdbf0ef3-aefd-4538-b234-eb0ac7674d71",
+          "id": "378c5efd-7ed6-4a9a-932d-b3d144d96259",
           "name": "Save Seller's Approval Settings",
           "request": {
             "name": "Save Seller's Approval Settings",
@@ -1955,7 +1955,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "34f2e15e-3b69-468a-81cc-53177a5164b1",
+              "id": "b4251405-7dec-44ca-a1ae-14d1d786aad8",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -2047,7 +2047,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "7c840c53-587b-4594-b7e0-fbdd10d41023",
+                "id": "336f770d-6364-4ce3-a9fe-0654ab057242",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/suggestions/configuration/seller/:sellerId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -2060,7 +2060,7 @@
           }
         },
         {
-          "id": "6539fde2-3374-4329-a6b5-a8d2932adc81",
+          "id": "91ba60ae-3599-40a7-81e0-4d6b63cee6fb",
           "name": "Activate autoApprove Setting for a Seller",
           "request": {
             "name": "Activate autoApprove Setting for a Seller",
@@ -2126,7 +2126,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "74473806-f7c2-444d-92c4-df10aafa4915",
+              "id": "e9e71e18-a325-46fc-ac46-3e8f2add887c",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -2220,7 +2220,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "fce21302-1067-41c0-9ba9-03f81c2d78e6",
+                "id": "ec7b22eb-70dd-428d-ba35-a9e4ece6a516",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/suggestions/configuration/autoapproval/toggle/seller/:sellerId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -2236,7 +2236,7 @@
       "event": []
     },
     {
-      "id": "c7ac367c-a11d-44be-947a-25774463ae91",
+      "id": "f78ad48e-4705-43aa-807a-2a353cfb077a",
       "name": "Match Received SKUs",
       "description": {
         "content": "Match SKU suggestions received in the marketplace",
@@ -2244,7 +2244,7 @@
       },
       "item": [
         {
-          "id": "2261d9b1-d1e6-47e8-b337-9a3e837be717",
+          "id": "35499f17-c264-4386-bea7-815e0d2b82c9",
           "name": "Match Received SKUs individually",
           "request": {
             "name": "Match Received SKUs individually",
@@ -2314,7 +2314,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "aliqua nostrud esse",
+                  "value": "labore sit",
                   "key": "matchid"
                 }
               ]
@@ -2341,7 +2341,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "a85d7077-531a-40ce-bbcc-302f7d1a731c",
+              "id": "6e417795-57aa-4b59-a502-ad4f83375c9e",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -2406,7 +2406,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "aliqua nostrud esse",
+                      "value": "labore sit",
                       "key": "matchid"
                     }
                   ]
@@ -2466,7 +2466,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "9e61ba44-b16a-4273-b850-a0be08db9801",
+                "id": "91a1a442-17bf-40e2-8dc1-2a050b32cef3",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/suggestions/:sellerId/:sellerskuid/versions/:version/matches/:matchid - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -2479,7 +2479,7 @@
           }
         },
         {
-          "id": "ac2701cc-5632-46d1-981a-76cbb7079206",
+          "id": "d55e05a6-14a5-45e9-9457-ef0236c44f3f",
           "name": "Match Multiple Received SKUs",
           "request": {
             "name": "Match Multiple Received SKUs",
@@ -2543,7 +2543,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "563fa564-2be1-4b9b-ac9a-f83ccd1b8c3b",
+              "id": "be039a84-4447-426e-b67c-f9acc600b0eb",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -2635,7 +2635,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "af22ca65-7883-4068-9084-745bb7b2d9e3",
+                "id": "34e89107-4265-401c-b034-6b214724687c",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/suggestions/matches/action/:actionName - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -2689,7 +2689,7 @@
     }
   ],
   "info": {
-    "_postman_id": "46456bc1-3440-4bf5-9bec-ecf459bf7a04",
+    "_postman_id": "b94f2212-0c40-4c5a-9a6f-a206114c0bc7",
     "name": "Suggestions",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
     "description": {

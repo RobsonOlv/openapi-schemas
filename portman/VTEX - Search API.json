@@ -1,10 +1,10 @@
 {
   "_": {
-    "postman_id": "59708f63-5b00-45b6-b6a8-3db4187dacaf"
+    "postman_id": "25923547-a4e6-44ad-9333-512b2c38720b"
   },
   "item": [
     {
-      "id": "a48a82b3-25c9-4fb6-8938-f5e8619cb887",
+      "id": "26e88dc9-99c0-4cf0-a37f-0c9ed02ed350",
       "name": "CrossSelling",
       "description": {
         "content": "",
@@ -12,7 +12,7 @@
       },
       "item": [
         {
-          "id": "c7e59777-20ea-4f51-821e-63ecde117b2d",
+          "id": "20eee5d8-7e22-41bb-a98b-849f1f1d8b86",
           "name": "Get Product Search of Who Saw Also Saw",
           "request": {
             "name": "Get Product Search of Who Saw Also Saw",
@@ -63,7 +63,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "c20882d1-f596-4e3a-a97f-01461cffa823",
+              "id": "0ce0cd58-c633-4248-bcba-245f2f593751",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -149,7 +149,7 @@
           }
         },
         {
-          "id": "4be98011-a65f-4f92-94f7-7180f9fe7fd4",
+          "id": "bf39e864-84a0-41ef-ba86-f9c57920c515",
           "name": "Get Product Search of Who Saw Also Bought",
           "request": {
             "name": "Get Product Search of Who Saw Also Bought",
@@ -200,7 +200,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "b1064967-ad99-4ff8-adda-36ae9e4a69f5",
+              "id": "631ed136-6b49-4079-8d0d-5ef1a26e1e48",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -286,7 +286,7 @@
           }
         },
         {
-          "id": "f6305c29-fac2-4857-afdc-0adb3470e15b",
+          "id": "63c6750c-defa-4c67-a13b-439e29d542dc",
           "name": "Get Product Search of Who Bought Also Bought",
           "request": {
             "name": "Get Product Search of Who Bought Also Bought",
@@ -337,7 +337,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "a667d456-a734-4a7d-ac09-10c6c0bfca1b",
+              "id": "4fa64168-9719-43f7-aa97-090269f1f5bf",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -423,7 +423,7 @@
           }
         },
         {
-          "id": "91c1b202-d01a-460d-9da4-db547fc5b306",
+          "id": "0550b44e-2d46-4286-b375-951cebb38a7f",
           "name": "Get Product Search of Show Together",
           "request": {
             "name": "Get Product Search of Show Together",
@@ -475,7 +475,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "6e9b8431-ff0e-47ce-95b2-95506697a158",
+              "id": "aa578781-2b1a-4fb9-a321-a03b91313e5f",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -564,7 +564,7 @@
           }
         },
         {
-          "id": "100b1071-532a-4a74-a99e-8ca3176daf7d",
+          "id": "249f5bb7-407d-4f0c-97aa-ad28eb4dd53f",
           "name": "Get Product Search of Accessories",
           "request": {
             "name": "Get Product Search of Accessories",
@@ -616,7 +616,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "614e59c9-9ce0-4f78-bad0-0961a63ba531",
+              "id": "b31c332b-f8c0-4ea4-b7a8-e23727917769",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -705,7 +705,7 @@
           }
         },
         {
-          "id": "dae0f04c-2ec8-4b76-b436-5cc14f06494f",
+          "id": "2c9b2733-12ca-4da8-88f5-162825be3282",
           "name": "Get Product Search of Similars",
           "request": {
             "name": "Get Product Search of Similars",
@@ -750,7 +750,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "332fb9af-efe0-45d0-9d1a-35a335675683",
+              "id": "c5607300-2812-42c6-a906-43241d3d890a",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -832,7 +832,7 @@
           }
         },
         {
-          "id": "a01d79a6-cabe-451d-b609-9af5bb8137c1",
+          "id": "164f3250-216e-4a91-b933-3b9549f7ee8b",
           "name": "Get Product Search of Suggestions",
           "request": {
             "name": "Get Product Search of Suggestions",
@@ -877,7 +877,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "870191b4-095e-4156-8745-db671310d7a2",
+              "id": "1fac581f-5707-4bf9-96ec-3642234b2ff1",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -962,7 +962,7 @@
       "event": []
     },
     {
-      "id": "0e8a9414-4288-450f-968a-3fe55da21263",
+      "id": "67d8e328-640f-4b3b-86eb-45ef9f8df35f",
       "name": "Search",
       "description": {
         "content": "",
@@ -970,7 +970,7 @@
       },
       "item": [
         {
-          "id": "c0427f47-6b3e-402e-8ac0-caab073e2fe8",
+          "id": "af4776af-b96c-4537-ad61-70d523a6560b",
           "name": "Search for Products",
           "request": {
             "name": "Search for Products",
@@ -1020,7 +1020,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "7248850d-8e9d-4774-bcf5-211e6fa73769",
+              "id": "1f0e3127-38e1-4f83-b51d-109bea6ee67b",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1105,7 +1105,7 @@
           }
         },
         {
-          "id": "93c2c660-8874-44c2-81ee-d946800f06a4",
+          "id": "02c0d792-d493-4079-9f37-308436ad500d",
           "name": "Search for Products with Filter, Order and Pagination",
           "request": {
             "name": "Search for Products with Filter, Order and Pagination",
@@ -1189,7 +1189,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "0e70a311-3712-4bdd-8e2d-e7d2d3dcaac8",
+              "id": "0b00fb99-88cb-4e83-99a4-69959a5f8f1e",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1283,7 +1283,7 @@
           }
         },
         {
-          "id": "30f34c60-8a20-4b92-b77a-6e8035f19f5d",
+          "id": "9cabade3-4b38-4bc4-ae13-e45dc133a65b",
           "name": "Search Product by Product URL",
           "request": {
             "name": "Search Product by Product URL",
@@ -1334,7 +1334,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "f6983a4c-0e59-4d15-84e5-2703d8038950",
+              "id": "db0b9494-811a-456d-94f1-f29800a260e6",
               "originalRequest": {
                 "url": {
                   "protocol": "http",
@@ -1422,7 +1422,7 @@
       "event": []
     },
     {
-      "id": "4c533e10-33c7-4d87-af10-98fdb585be3b",
+      "id": "0a14e575-da5a-4c3c-b31a-2de59e199195",
       "name": "Offers",
       "description": {
         "content": "",
@@ -1430,7 +1430,7 @@
       },
       "item": [
         {
-          "id": "f0e3e8e4-6941-4ba3-b6b3-30a63e28d35c",
+          "id": "0d3dfa33-7393-4645-ac97-57da9719fe92",
           "name": "Search Product offers",
           "request": {
             "name": "Search Product offers",
@@ -1495,7 +1495,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "a4096edf-2fc8-4723-9653-667bf90f3a21",
+              "id": "d003c7a8-b83a-4b9d-8a47-10aa60b093a1",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1593,7 +1593,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "4f8c5823-db04-484c-82aa-364fecf34186",
+                "id": "3b6ee546-f75e-4619-8ecb-feb7c5b92c72",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/catalog_system/pub/products/offers/:productId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -1609,7 +1609,7 @@
           }
         },
         {
-          "id": "48fe5d26-738a-427b-accb-21e484fae21b",
+          "id": "d5963a00-b4a2-4ac8-9e25-0f73c2788728",
           "name": "Search SKU offers",
           "request": {
             "name": "Search SKU offers",
@@ -1686,7 +1686,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "10ef0ea8-3635-47e0-8754-d252d093b5e2",
+              "id": "1be48251-cd3a-497e-a560-416425fc5052",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1796,7 +1796,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "c26d227f-67bd-423a-a24a-46426e86e456",
+                "id": "e02211ee-4542-4f91-a9cc-76b79c65a4bc",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/catalog_system/pub/products/offers/:productId/sku/:skuId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -1815,7 +1815,7 @@
       "event": []
     },
     {
-      "id": "69ef4a97-70ad-4c23-ab26-5c525bf3187a",
+      "id": "d20eff5d-4cf5-4b7e-b36b-6dba684a990b",
       "name": "Facets",
       "description": {
         "content": "",
@@ -1823,7 +1823,7 @@
       },
       "item": [
         {
-          "id": "a4202265-dfa8-4224-bb87-93447ab138c6",
+          "id": "cb7c7973-d208-4b6b-8163-372cf213d358",
           "name": "Get Category Facets",
           "request": {
             "name": "Get Category Facets",
@@ -1907,7 +1907,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "5e24b5df-5b77-4c8c-b163-fb48ddf8888c",
+              "id": "e94a5a61-36ca-4b0a-8be8-ed96b04e1584",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -2014,7 +2014,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "0b4ed5be-6975-46ea-b510-55654b14c981",
+                "id": "e0ae88c7-79af-4ac0-85a8-dd1370284b2b",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/catalog_system/pub/facets/category/:categoryId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -2030,7 +2030,7 @@
           }
         },
         {
-          "id": "81d15606-964e-4a43-87f1-a707bdfb4fec",
+          "id": "f840a20c-4b5c-4ab6-aeff-ffd13a11d9d2",
           "name": "Search by Store Facets",
           "request": {
             "name": "Search by Store Facets",
@@ -2123,7 +2123,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "a0c670e9-3657-4856-8da9-6a0306b49d08",
+              "id": "26df888e-681c-452c-bcc9-1be6d555c913",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -2234,7 +2234,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "62b82f35-933d-44dc-908b-800fba9f4d18",
+                "id": "bc276b94-ccd2-4e11-b64a-d1d97fe74a3d",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/api/catalog_system/pub/facets/search/:term - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -2253,7 +2253,7 @@
       "event": []
     },
     {
-      "id": "d581065a-45fc-4117-903d-501daf9840ce",
+      "id": "bf693674-12f9-49b4-867f-8476fb7baecd",
       "name": "Autocomplete",
       "description": {
         "content": "",
@@ -2261,7 +2261,7 @@
       },
       "item": [
         {
-          "id": "cfd90817-3bbc-476f-861b-dbc9147695fd",
+          "id": "b467fe7d-9bad-475c-a198-7a9a6e6ce8d5",
           "name": "Product Search Autocomplete",
           "request": {
             "name": "Product Search Autocomplete",
@@ -2305,7 +2305,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "17ecdcdf-839a-45e5-acf8-fe6e5bc52e39",
+              "id": "9f82d5fb-4b2e-4eea-b938-56cde475d42b",
               "originalRequest": {
                 "url": {
                   "protocol": "http",
@@ -2437,7 +2437,7 @@
     }
   ],
   "info": {
-    "_postman_id": "59708f63-5b00-45b6-b6a8-3db4187dacaf",
+    "_postman_id": "25923547-a4e6-44ad-9333-512b2c38720b",
     "name": "Legacy Search API",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
     "description": {

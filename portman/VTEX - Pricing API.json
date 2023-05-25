@@ -1,10 +1,10 @@
 {
   "_": {
-    "postman_id": "4473b6a9-6bba-4406-8f04-bda5d99ccdde"
+    "postman_id": "496a4f07-c720-45a8-8501-4073859111a9"
   },
   "item": [
     {
-      "id": "6696f04a-5568-4761-a886-6e603c57d15c",
+      "id": "a164ecdd-f212-49eb-873d-88d1b992c199",
       "name": "Price Tables",
       "description": {
         "content": "",
@@ -12,7 +12,7 @@
       },
       "item": [
         {
-          "id": "76e02999-7fa4-4c8d-a0b5-1f7f10706f4b",
+          "id": "0b838b8a-b483-43f9-8fc2-7f887a908021",
           "name": "Get rules for a price table",
           "request": {
             "name": "Get rules for a price table",
@@ -71,7 +71,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "6081e0a9-0a6f-46f7-974d-e285613944bf",
+              "id": "0c08a3d0-5224-4cfb-b519-aac4c60b16b3",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -162,7 +162,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "e0b2c7dd-0530-42d4-9d89-752347a63271",
+              "id": "1ae47020-e210-49a8-86b1-6231a32b5109",
               "name": "Unauthorized",
               "originalRequest": {
                 "url": {
@@ -249,7 +249,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "6c875bbe-663b-4f2d-b3c4-461d26354eac",
+              "id": "d446465f-94c9-4830-b344-b7c80d4cfd9e",
               "name": "Forbidden",
               "originalRequest": {
                 "url": {
@@ -336,7 +336,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "a9c6f274-2000-452d-b1e8-16a0e8a13ecf",
+              "id": "e9082045-f89c-476e-a031-43c721fa26e0",
               "name": "Too many requests",
               "originalRequest": {
                 "url": {
@@ -426,7 +426,7 @@
           }
         },
         {
-          "id": "38e0c25e-4de0-43e1-9fcb-fa8db39b24a8",
+          "id": "6998bc27-43cd-4322-b781-6b1621df5c5e",
           "name": "Update rules for a price table",
           "request": {
             "name": "Update rules for a price table",
@@ -453,7 +453,7 @@
                     "type": "text/plain"
                   },
                   "type": "any",
-                  "value": "dolore dolore sed eu ipsum",
+                  "value": "laborum eu consequ",
                   "key": "priceTableId"
                 },
                 {
@@ -489,7 +489,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "3c7abee0-31a8-4d85-b89b-1ab82ab67e0a",
+              "id": "e7885346-9480-4734-9199-2626f0bf6c9a",
               "name": "Created",
               "originalRequest": {
                 "url": {
@@ -511,7 +511,7 @@
                         "type": "text/plain"
                       },
                       "type": "any",
-                      "value": "dolore dolore sed eu ipsum",
+                      "value": "laborum eu consequ",
                       "key": "priceTableId"
                     },
                     {
@@ -556,7 +556,7 @@
                 "method": "PUT",
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"rules\": [\n    {\n      \"id\": 0,\n      \"context\": {\n        \"categories\": {\n          \"consequat5c_\": \"209\",\n          \"reprehenderit8f0\": \"209\",\n          \"Lorem_a19\": \"209\"\n        },\n        \"brands\": {\n          \"deseruntf60\": \"421\"\n        },\n        \"markupRange\": null,\n        \"dateRange\": {\n          \"from\": \"2019-10-23T19:00:00.000Z\",\n          \"to\": \"2019-10-26T00:00:00.000Z\"\n        },\n        \"stockStatuses\": null,\n        \"internalCategories\": null\n      },\n      \"percentualModifier\": 0\n    },\n    {\n      \"id\": 0,\n      \"context\": {\n        \"categories\": {\n          \"commodo47\": \"209\",\n          \"pariatur_0\": \"209\",\n          \"Lorem1\": \"209\",\n          \"laborumc_\": \"209\",\n          \"aliquac\": \"209\"\n        },\n        \"brands\": {\n          \"fugiat_96\": \"421\"\n        },\n        \"markupRange\": null,\n        \"dateRange\": {\n          \"from\": \"2019-10-23T19:00:00.000Z\",\n          \"to\": \"2019-10-26T00:00:00.000Z\"\n        },\n        \"stockStatuses\": null,\n        \"internalCategories\": null\n      },\n      \"percentualModifier\": 0\n    }\n  ]\n}",
+                  "raw": "{\n  \"rules\": [\n    {\n      \"id\": 0,\n      \"context\": {\n        \"categories\": {\n          \"sunt4f\": \"209\",\n          \"irured\": \"209\",\n          \"officia41\": \"209\",\n          \"dolorbc\": \"209\"\n        },\n        \"brands\": {\n          \"adipisicing_6\": \"421\"\n        },\n        \"markupRange\": null,\n        \"dateRange\": {\n          \"from\": \"2019-10-23T19:00:00.000Z\",\n          \"to\": \"2019-10-26T00:00:00.000Z\"\n        },\n        \"stockStatuses\": null,\n        \"internalCategories\": null\n      },\n      \"percentualModifier\": 0\n    },\n    {\n      \"id\": 0,\n      \"context\": {\n        \"categories\": {\n          \"eab76\": \"209\",\n          \"reprehenderit_27\": \"209\"\n        },\n        \"brands\": {\n          \"ad_5b7\": \"421\",\n          \"sunt_495\": \"421\"\n        },\n        \"markupRange\": null,\n        \"dateRange\": {\n          \"from\": \"2019-10-23T19:00:00.000Z\",\n          \"to\": \"2019-10-26T00:00:00.000Z\"\n        },\n        \"stockStatuses\": null,\n        \"internalCategories\": null\n      },\n      \"percentualModifier\": 0\n    }\n  ]\n}",
                   "options": {
                     "raw": {
                       "language": "json"
@@ -580,7 +580,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "5f95a7a0-7245-4ad2-8d99-0c846da7b54c",
+                "id": "23aa1b63-3e1c-4a38-9062-e62cab30b200",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/pricing/pipeline/catalog/:priceTableId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -593,7 +593,7 @@
           }
         },
         {
-          "id": "5f52b211-7eac-434f-a9a0-77e031c2f411",
+          "id": "e73b77d2-87be-42ba-8ae7-2280af6b7772",
           "name": "Get all price tables and their rules",
           "request": {
             "name": "Get all price tables and their rules",
@@ -641,7 +641,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "e673d2d3-44ac-44fc-92ad-1f1d6295318e",
+              "id": "f9376524-84ba-4881-9053-9261058d95aa",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -724,7 +724,7 @@
           }
         },
         {
-          "id": "0fe3537b-8169-4edf-8bd1-efb74b8e5f1b",
+          "id": "77707247-f5ef-4ceb-9a7b-d3656134af77",
           "name": "List price tables",
           "request": {
             "name": "List price tables",
@@ -771,7 +771,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "8de63e0c-49d3-4f17-9464-f918e848ba7c",
+              "id": "3a8f9fa0-a7ff-4b50-8bfa-06925a5ad51a",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -856,7 +856,7 @@
       "event": []
     },
     {
-      "id": "b8141cf9-778e-439b-94e6-ba0a6f78e3ff",
+      "id": "b8f4bd5f-248f-4177-9528-10bb3eeae0bf",
       "name": "Prices and Fixed Prices",
       "description": {
         "content": "",
@@ -864,7 +864,7 @@
       },
       "item": [
         {
-          "id": "6a181428-b224-486a-8365-184f27e506da",
+          "id": "e5d01ed1-6270-473e-8a17-f9a9080d8ca0",
           "name": "Get Price",
           "request": {
             "name": "Get Price",
@@ -917,7 +917,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "495d8c5d-2479-40a2-b0d5-9159db872200",
+              "id": "eba41313-4d3c-4bb3-9c96-c99f0b004210",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1003,7 +1003,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "c96d2d30-f75f-4a54-9be1-b8e63b521637",
+                "id": "9161c027-0a6d-400c-aef0-024cf4ab7e04",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/pricing/prices/:itemId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -1019,7 +1019,7 @@
           }
         },
         {
-          "id": "3b8fd376-d971-4714-89d9-7525f7c9120e",
+          "id": "28d9a8d6-e20b-40a9-a52c-008772fd023e",
           "name": "Delete Price",
           "request": {
             "name": "Delete Price",
@@ -1066,7 +1066,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "67a12812-badc-42f8-81e4-d5a3c6939f47",
+              "id": "423e5b77-5f94-42ac-819f-a81a135bb60a",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1148,7 +1148,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "d8cb16e8-1837-4d01-a2e3-bb613dadd350",
+                "id": "7b06065e-2e27-4fda-acba-955384e3c829",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[DELETE]::/pricing/prices/:itemId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -1161,7 +1161,7 @@
           }
         },
         {
-          "id": "01182d92-6c5f-4633-8946-aa2ad3d326f7",
+          "id": "f5b73f57-ef33-463f-b528-48ef087110ef",
           "name": "Create or Update Base Price or Fixed Prices",
           "request": {
             "name": "Create or Update Base Price or Fixed Prices",
@@ -1223,7 +1223,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "41573dca-b444-4c60-8bd4-f5c2dbac7134",
+              "id": "f6ca1ce1-ae92-49b7-80df-63282418a3c3",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1313,7 +1313,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "b0e6ac63-4263-4383-8cf1-6a3c573f3228",
+                "id": "208805ff-d3f4-438b-a638-2d2111713233",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[PUT]::/pricing/prices/:itemId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -1326,7 +1326,7 @@
           }
         },
         {
-          "id": "b1385de6-8326-41ae-91a3-bc64c49f76df",
+          "id": "8993c1ea-64d6-4d8b-8ba0-0e3c95c3cb57",
           "name": "Get Fixed Prices",
           "request": {
             "name": "Get Fixed Prices",
@@ -1380,7 +1380,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "d13b319d-2443-4140-a93c-ba866bc6542a",
+              "id": "d865e95d-6c2a-41a9-a394-1e6ec22db3cd",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1467,7 +1467,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "fa8e8396-a19e-4816-83f8-a210c418100c",
+                "id": "d067ed73-6d26-4d83-900d-781904b01139",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/pricing/prices/:itemId/fixed - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -1483,7 +1483,7 @@
           }
         },
         {
-          "id": "fd3714ab-2947-4cf8-a904-c3032cb6e330",
+          "id": "8ad6c333-c994-4958-a4ac-e2cad23d06d7",
           "name": "Create or Update Fixed Prices on a price table or trade policy",
           "request": {
             "name": "Create or Update Fixed Prices on a price table or trade policy",
@@ -1557,7 +1557,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "8c3a8060-335b-468d-8de3-a69ea90ad641",
+              "id": "56641ca6-a719-4023-8fe9-d5e0f5fe1510",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1659,7 +1659,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "0ea2624b-4869-4eab-b254-4d3d9a14a1d5",
+                "id": "42aaba6d-9599-451d-86ff-6334535c4f6d",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[POST]::/pricing/prices/:itemId/fixed/:priceTableId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -1672,7 +1672,7 @@
           }
         },
         {
-          "id": "9cb5989c-5615-405d-9149-e1792d72143a",
+          "id": "a123255d-6550-4415-8d48-ba041c4df1de",
           "name": "Get Fixed Prices on a price table or trade policy",
           "request": {
             "name": "Get Fixed Prices on a price table or trade policy",
@@ -1737,7 +1737,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "a91a5e94-5ccc-4d29-8103-0c8871cf138e",
+              "id": "dcf4fefb-fd43-4e14-bb0a-890bcff3d2d7",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -1835,7 +1835,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "bb2f626d-140e-4418-a1af-2150a2da1e3f",
+                "id": "a1341c40-bce8-4eb5-a828-ffb64f8ff43b",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[GET]::/pricing/prices/:itemId/fixed/:priceTableId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n",
@@ -1851,7 +1851,7 @@
           }
         },
         {
-          "id": "decbf433-01b6-4539-acf5-2eebc14907d4",
+          "id": "6d385ddd-410b-4c42-b2ed-b0660f54c277",
           "name": "Delete Fixed Prices on a price table or trade policy",
           "request": {
             "name": "Delete Fixed Prices on a price table or trade policy",
@@ -1910,7 +1910,7 @@
               "_": {
                 "postman_previewlanguage": "text"
               },
-              "id": "c339b481-ae94-416e-8862-255363e11f03",
+              "id": "b26f2d3b-c384-4c9e-b308-068307b85bc0",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -2004,7 +2004,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "7218eddc-e108-4159-9af2-59dbfe99f2e3",
+                "id": "76456b48-38ce-4048-a46d-4d52ad0615d3",
                 "type": "text/javascript",
                 "exec": [
                   "// Validate status 2xx \npm.test(\"[DELETE]::/pricing/prices/:itemId/fixed/:priceTableId - Status code is 2xx\", function () {\n   pm.response.to.be.success;\n});\n"
@@ -2017,7 +2017,7 @@
           }
         },
         {
-          "id": "ae26e80e-cd27-4834-8297-d96fc9c62321",
+          "id": "8c69e716-6c0b-47bb-aeeb-ccd0f0a20042",
           "name": "Get Computed Price by price table or trade policy",
           "request": {
             "name": "Get Computed Price by price table or trade policy",
@@ -2115,7 +2115,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "462921b2-c902-4ef0-a1d5-a674118d4f19",
+              "id": "9620fa4c-4014-4705-8ff8-5f0773d67cb7",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -2236,7 +2236,7 @@
       "event": []
     },
     {
-      "id": "5a7f3031-8c8f-43c4-95a2-f990dec7b298",
+      "id": "cf7fe56b-9857-49bc-a279-0d876c8048ba",
       "name": "Pricing Configuration",
       "description": {
         "content": "",
@@ -2244,7 +2244,7 @@
       },
       "item": [
         {
-          "id": "e884eeb9-ef1c-4629-9f02-0fe539047f03",
+          "id": "c22aab1c-f848-4058-94a9-e79cf828457b",
           "name": "Get Pricing Configuration",
           "request": {
             "name": "Get Pricing Configuration",
@@ -2291,7 +2291,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "75b1d08d-fd24-4e10-83b4-04235467ca14",
+              "id": "fe71632c-24b6-46d9-a10b-394efda13fc9",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -2472,7 +2472,7 @@
           }
         },
         {
-          "id": "b4ebe7c1-10b0-48f6-82fe-34bffd249555",
+          "id": "9aa3b231-2a8f-44b0-a6e6-db2dddbbe258",
           "name": "Get Pricing v2 Status",
           "request": {
             "name": "Get Pricing v2 Status",
@@ -2519,7 +2519,7 @@
               "_": {
                 "postman_previewlanguage": "json"
               },
-              "id": "bcd6c4f0-dfa2-4f2d-95bd-fcb10aa7a8e0",
+              "id": "c216f3b8-a85f-43e8-95b6-27c01fd6762c",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -2741,7 +2741,7 @@
     }
   ],
   "info": {
-    "_postman_id": "4473b6a9-6bba-4406-8f04-bda5d99ccdde",
+    "_postman_id": "496a4f07-c720-45a8-8501-4073859111a9",
     "name": "Pricing API",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
     "description": {
